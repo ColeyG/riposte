@@ -6,10 +6,14 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 625,
+    minWidth: 100,
+    minHeight: 100,
     x: 200,
     y: 100,
     frame: false,
-    resizable: false,
+    webPreferences: {
+      nodeIntegration: true,
+    },
   });
 
   mainWindow.loadFile('index.html');
