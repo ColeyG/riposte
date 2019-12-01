@@ -1,3 +1,71 @@
+@import "./cold-lib.scss";
+
+$tan: #ffd4af;
+$pink: #f9627d;
+$grey: #cbc0d3;
+$lapis: #2274a5;
+$blue: #1f2041;
+$black: #16161d;
+
+@font-face {
+  font-family: vt;
+  src: url(./fonts/VT323-Regular.ttf);
+}
+
+@mixin vt($color: $black, $size: 16pt, $weight: normal) {
+  color: $color;
+  font-size: $size;
+  font-weight: $weight;
+  font-family: vt;
+}
+
+@mixin bezel() {
+  border-top: 3px solid inset rgba(255, 255, 255, 0.35);
+  border-right: 3px solid inset rgba(0, 0, 0, 0.25);
+  border-bottom: 3px solid inset rgba(0, 0, 0, 0.25);
+  border-left: 3px solid inset rgba(255, 255, 255, 0.35);
+}
+
 body {
-  background-color: red;
+  @include vt($color: $black, $size: 16pt);
+}
+
+.primary-header {
+  width: 100%;
+  background-color: $tan;
+  cursor: move;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  @include bezel();
+  padding: 2px;
+  h2 {
+    margin: 0 5px;
+  }
+}
+.primary-nav {
+  height: 100%;
+  ul {
+    -webkit-app-region: no-drag;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    li a {
+      display: block;
+      width: 30px;
+      height: 100%;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      @include bezel;
+      &:hover {
+        background-color: $pink;
+      }
+    }
+  }
 }
