@@ -20,12 +20,8 @@
     "css-loader": "^3.0.0",
     "cssnano": "^4.1.10",
     "electron": "^7.1.0",
-<<<<<<< HEAD
-    "file-loader": "^4.3.0",
-=======
     "eslint": "^6.6.0",
     "file-loader": "^4.2.0",
->>>>>>> 1ff3948fea1d6d4d26010070684be3d3670a50e7
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
