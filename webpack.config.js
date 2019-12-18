@@ -4,6 +4,7 @@ const path = require('path');
 module.exports = {
   entry: './src/main.js',
   watch: true,
+  target: 'electron-main',
   output: {
     path: path.resolve(__dirname, 'compiled'),
     filename: './bundle.js',
