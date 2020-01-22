@@ -8,4 +8,4 @@ Game:
 `npm install` then `npm run start`
 
 Server:
-`npm run server-setup` then `npm run server`
+`npm run server-setup`, create a config from the example named 'config.json', then `npm run server`
