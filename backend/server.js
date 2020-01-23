@@ -13,27 +13,31 @@ httpServer.listen(3000, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
 
+const indexRouter = require('./routes/index');
+
 app.use(session({ secret: config.sessionSecret, saveUninitialized: true, resave: true }));
 app.use(cookieParser());
 
-app.get('/', (req, res) => {
-  let resp = 'nothing';
+app.use('/', indexRouter);
 
-  if (req.session.favColor) {
-    resp = req.session.favColor;
-  }
+// app.get('/', (req, res) => {
+//   let resp = 'nothing';
 
-  res
-    .status(200)
-    .contentType('text/plain')
-    .end(`Responded with: ${resp}`);
-});
+//   if (req.session.favColor) {
+//     resp = req.session.favColor;
+//   }
 
-app.get('/set', (req, res) => {
-  req.session.favColor = 'Red';
+//   res
+//     .status(200)
+//     .contentType('text/plain')
+//     .end(`Responded with: ${resp}`);
+// });
 
-  res
-    .status(200)
-    .contentType('text/plain')
-    .end(`Responded with: ${req.session.favColor}`);
-});
+// app.get('/set', (req, res) => {
+//   req.session.favColor = 'Red';
+
+//   res
+//     .status(200)
+//     .contentType('text/plain')
+//     .end(`Responded with: ${req.session.favColor}`);
+// });
