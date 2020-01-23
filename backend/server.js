@@ -19,25 +19,3 @@ app.use(session({ secret: config.sessionSecret, saveUninitialized: true, resave:
 app.use(cookieParser());
 
 app.use('/', indexRouter);
-
-// app.get('/', (req, res) => {
-//   let resp = 'nothing';
-
-//   if (req.session.favColor) {
-//     resp = req.session.favColor;
-//   }
-
-//   res
-//     .status(200)
-//     .contentType('text/plain')
-//     .end(`Responded with: ${resp}`);
-// });
-
-// app.get('/set', (req, res) => {
-//   req.session.favColor = 'Red';
-
-//   res
-//     .status(200)
-//     .contentType('text/plain')
-//     .end(`Responded with: ${req.session.favColor}`);
-// });

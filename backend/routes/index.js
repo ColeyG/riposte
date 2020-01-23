@@ -15,4 +15,13 @@ router.get('/', (req, res, next) => {
     .end(`Responded with: ${resp}`);
 });
 
+router.get('/set', (req, res) => {
+  req.session.favColor = 'Red';
+
+  res
+    .status(200)
+    .contentType('text/plain')
+    .end(`Responded with: ${req.session.favColor}`);
+});
+
 module.exports = router;
