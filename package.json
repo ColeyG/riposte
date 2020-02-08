@@ -4,9 +4,10 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "dev": "webpack --mode development",
+    "start": "electron src/electron.js",
+    "dev": "webpack --mode development --config config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint -c config/.eslintrc.json src/",
     "server-setup": "cd backend/; npm install",
     "server": "cd backend/; npm run server"
   },
