@@ -11,6 +11,7 @@ function createWindow() {
     x: 200,
     y: 100,
     frame: false,
+    icon: path.join(__dirname, 'ros.png'),
     webPreferences: {
       nodeIntegration: true,
     },
