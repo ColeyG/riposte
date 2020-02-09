@@ -14,8 +14,10 @@ httpServer.listen(3000, () => {
 });
 
 const indexRouter = require('../routes/index');
+const accountRouter = require('../routes/account.js');
 
 app.use(session({ secret: config.sessionSecret, saveUninitialized: true, resave: true }));
 app.use(cookieParser());
 
 app.use('/', indexRouter);
+app.use('/account', accountRouter);

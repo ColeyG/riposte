@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './header';
-import Login from './login-register';
+import LoginRegister from './loginRegister';
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <Login />
+      <LoginRegister />
     </React.Fragment>
   );
 }

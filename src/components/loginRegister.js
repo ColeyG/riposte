@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Login extends React.Component {
+class LoginRegister extends React.Component {
   constructor() {
     super();
     this.state = { signUp: true };
@@ -8,6 +8,14 @@ class Login extends React.Component {
 
   swapForm = () => {
     this.setState({ signUp: !this.state.signUp });
+  }
+
+  signUpAction = () => {
+    console.log('sign up action');
+  }
+
+  createAccountAction = () => {
+    console.log('create account action');
   }
 
   render() {
@@ -19,7 +27,7 @@ class Login extends React.Component {
           <input name="username" id="username" type="text" />
           <label htmlFor="password">Password</label>
           <input name="password" id="password" type="text" />
-          <button type="button">Sign In</button>
+          <button type="button" onClick={this.signUpAction}>Sign In</button>
           <p>Haven't played yet?</p>
           <button type="button" onClick={this.swapForm}>Create an Account</button>
         </form>
@@ -36,7 +44,7 @@ class Login extends React.Component {
         <input name="password" id="password" type="text" />
         <label htmlFor="password-confirm">Confirm Password</label>
         <input name="password-confirm" id="password-confirm" type="text" />
-        <button type="button">Create an Account</button>
+        <button type="button" onClick={this.createAccountAction}>Create an Account</button>
         <p>Already have an account?</p>
         <button type="button" onClick={this.swapForm}>Go to Sign In</button>
       </form>
@@ -44,4 +52,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login;
+export default LoginRegister;
