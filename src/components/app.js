@@ -1,13 +1,13 @@
 import React from 'react';
+import Login from './login-register';
 
-class App extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
-        <p>asdf</p>
-      </React.Fragment>
-    );
-  }
+function App() {
+  return (
+    <React.Fragment>
+      <p>asdf</p>
+      <Login />
+    </React.Fragment>
+  );
 }
 
 export default App;
