@@ -6,7 +6,7 @@ module.exports = {
   watch: true,
   target: 'electron-main',
   output: {
-    path: path.resolve(__dirname, 'compiled'),
+    path: path.resolve(__dirname, '../compiled'),
     filename: './bundle.js',
   },
   module: {
