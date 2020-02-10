@@ -1,6 +1,7 @@
 [X] Add eslint
 [X] Add readme
+[X] Favicon
 [ ] Update npm scripts
   - Package
   - Quick start
-[ ] Favicon
+[ ] Remember Screen Size

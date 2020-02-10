@@ -30,6 +30,9 @@ body {
   @include vt($color: $black, $size: 16pt);
 }
 
+// Pages
+@import "./pages/loading-screen.scss";
+
 .primary-header {
   width: 100%;
   background-color: $tan;

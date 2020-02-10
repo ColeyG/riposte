@@ -3,7 +3,11 @@ import React from 'react';
 class LoginRegister extends React.Component {
   constructor() {
     super();
-    this.state = { signUp: true };
+    this.state = { signUp: true, visible: true };
+  }
+
+  toggleHideForm = () => {
+    this.setState({ visible: !this.state.visible });
   }
 
   swapForm = () => {
