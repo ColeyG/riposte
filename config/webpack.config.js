@@ -2,7 +2,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './main.js',
   watch: true,
   target: 'electron-main',
   output: {
