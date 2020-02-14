@@ -28,6 +28,7 @@
     "no-eval": "off",
     "import/no-dynamic-require": "off",
     "no-unused-vars": "off",
+    "import/no-extraneous-dependencies": "off",
     "max-len": [
       "error",
       200
