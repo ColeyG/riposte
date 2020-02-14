@@ -2,7 +2,7 @@
   "name": "riposte",
   "version": "0.0.1",
   "description": "A Card Game built with React and Electron!",
-  "main": "main.js",
+  "main": "src/electron.js",
   "scripts": {
     "start": "electron src/electron.js",
     "dev": "webpack --mode development --config config/webpack.config.js",
@@ -10,12 +10,14 @@
     "lint": "eslint -c config/.eslintrc.json src/",
     "server-setup": "cd backend/; npm install",
     "server": "cd backend/; npm run server",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "package": "electron-builder"
   },
   "author": "Cole Geerts",
   "license": "ISC",
   "build": {
+    "directories": {
+      "output": "package"
+    },
     "appId": "com.electron.riposte",
     "linux": {}
   },
