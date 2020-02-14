@@ -1,6 +1,8 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
+const startUrl = path.resolve('html/index.html');
+
 let mainWindow;
 
 function createWindow() {
@@ -18,7 +20,7 @@ function createWindow() {
     },
   });
 
-  mainWindow.loadFile('../html/index.html');
+  mainWindow.loadFile(startUrl);
 
   mainWindow.on('closed', () => {
     mainWindow = null;
