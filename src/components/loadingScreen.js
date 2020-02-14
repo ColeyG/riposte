@@ -7,6 +7,7 @@ class LoadingScreen extends React.Component {
       slashStates: ['/', '-', '\\', '|'],
       slash: '/',
       count: 0,
+      complete: false,
     };
   }
 
@@ -18,14 +19,18 @@ class LoadingScreen extends React.Component {
     this.state.count++;
     const slashState = this.state.count % this.state.slashStates.length;
     // TODO: Actually Make this Load
-    if (this.state.count > 100) {
-      this.props.finishLoadingMethod();
-    }
     this.setState({
       slash: this.state.slashStates[slashState],
     });
+    if (this.state.count > 100) {
+      // Complete load state actions below, trigger these on load end
+      this.setState({ complete: true });
+      this.props.finishLoadingMethod();
+    }
     setTimeout(() => {
-      requestAnimationFrame(this.animate);
+      if (!this.state.complete) {
+        requestAnimationFrame(this.animate);
+      }
     }, 100);
   }
 
