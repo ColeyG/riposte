@@ -49,7 +49,6 @@ ipcMain.on('cookie-request', (event, arg) => {
   session.defaultSession.cookies.get({})
     .then((cookies) => {
       event.reply('cookie-response', cookies);
-      console.log(cookies);
     }).catch((error) => {
       event.reply('cookie-response', error);
       console.log(error);
@@ -57,10 +56,9 @@ ipcMain.on('cookie-request', (event, arg) => {
 });
 
 ipcMain.on('cookie-save', (event, arg) => {
-  console.log(arg);
   session.defaultSession.cookies.set(arg)
     .then(() => {
-      console.log('Saving Cookie');
+      // Cookie Success
     }, (error) => {
       console.error(error);
     });

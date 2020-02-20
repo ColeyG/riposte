@@ -30,8 +30,6 @@ class LoginRegister extends React.Component {
       (resp) => resp.json(),
     )
       .then((data) => {
-        console.log(data);
-        // Need to use electron cookie: https://www.electronjs.org/docs/api/cookies
         // session.defaultSession.cookies.set(data);
         ipcRenderer.send('cookie-save', data);
       });
