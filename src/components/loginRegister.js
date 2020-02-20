@@ -1,9 +1,20 @@
 import React from 'react';
+import { session, ipcRenderer } from 'electron';
+
+import config from '../../config/config.json';
 
 class LoginRegister extends React.Component {
   constructor() {
     super();
     this.state = { signUp: true, visible: true };
+  }
+
+  componentDidMount() {
+    ipcRenderer.on('cookie-response', (event, arg) => {
+      console.log(arg);
+    });
+
+    ipcRenderer.send('cookie-request');
   }
 
   toggleHideForm = () => {
@@ -14,8 +25,16 @@ class LoginRegister extends React.Component {
     this.setState({ signUp: !this.state.signUp });
   }
 
-  signUpAction = () => {
-    console.log('sign up action');
+  signInAction = () => {
+    fetch(`${config.server}/account/signIn`).then(
+      (resp) => resp.json(),
+    )
+      .then((data) => {
+        console.log(data);
+        // Need to use electron cookie: https://www.electronjs.org/docs/api/cookies
+        // session.defaultSession.cookies.set(data);
+        ipcRenderer.send('cookie-save', data);
+      });
   }
 
   createAccountAction = () => {
@@ -31,7 +50,7 @@ class LoginRegister extends React.Component {
           <input name="username" id="username" type="text" />
           <label htmlFor="password">Password</label>
           <input name="password" id="password" type="text" />
-          <button type="button" onClick={this.signUpAction}>Sign In</button>
+          <button type="button" onClick={this.signInAction}>Sign In</button>
           <p>Haven't played yet?</p>
           <button type="button" onClick={this.swapForm}>Create an Account</button>
         </form>

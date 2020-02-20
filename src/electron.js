@@ -1,4 +1,6 @@
-const { app, BrowserWindow } = require('electron');
+const {
+  app, BrowserWindow, ipcMain, session,
+} = require('electron');
 const path = require('path');
 
 const startUrl = path.resolve('html/index.html');
@@ -27,7 +29,9 @@ function createWindow() {
   });
 }
 
-app.on('ready', createWindow);
+app.on('ready', () => {
+  createWindow();
+});
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
@@ -39,4 +43,25 @@ app.on('activate', () => {
   if (mainWindow === null) {
     createWindow();
   }
+});
+
+ipcMain.on('cookie-request', (event, arg) => {
+  session.defaultSession.cookies.get({})
+    .then((cookies) => {
+      event.reply('cookie-response', cookies);
+      console.log(cookies);
+    }).catch((error) => {
+      event.reply('cookie-response', error);
+      console.log(error);
+    });
+});
+
+ipcMain.on('cookie-save', (event, arg) => {
+  console.log(arg);
+  session.defaultSession.cookies.set(arg)
+    .then(() => {
+      console.log('Saving Cookie');
+    }, (error) => {
+      console.error(error);
+    });
 });
