@@ -1,5 +1,7 @@
 import React from 'react';
 
+const config = require('../../config/config.json');
+
 class LoadingScreen extends React.Component {
   constructor(props) {
     super(props);
@@ -22,7 +24,7 @@ class LoadingScreen extends React.Component {
     this.setState({
       slash: this.state.slashStates[slashState],
     });
-    if (this.state.count > 100) {
+    if (this.state.count > config.minLoad) {
       // Complete load state actions below, trigger these on load end
       this.setState({ complete: true });
       this.props.finishLoadingMethod();

@@ -10,7 +10,7 @@
     "lint": "eslint -c config/.eslintrc.json src/",
     "server-setup": "cd backend/; npm install",
     "server": "cd backend/; npm run server",
-    "package": "electron-builder"
+    "package": "electron-builder -wl"
   },
   "author": "Cole Geerts",
   "license": "ISC",
