@@ -16,9 +16,13 @@ const userSchema = new mongoose.Schema({
   },
   password: {
     type: String,
-    required: [true, 'Password is required'],
     min: 8,
-    max: 100,
+  },
+  salt: {
+    type: String,
+  },
+  hash: {
+    type: String,
   },
   collection: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Collection' }],
 });

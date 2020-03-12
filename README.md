@@ -9,3 +9,7 @@ Game:
 
 Server:
 `npm run server-setup`, create a config from the example named 'config.json', then `npm run server`
+
+## Packaging
+
+`npm run package` will create a number of packages for the application.
