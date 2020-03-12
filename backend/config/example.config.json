@@ -1,3 +1,7 @@
 {
-  "sessionSecret": "some-random-secret"
+  "sessionSecret": "SomeRandomSecret",
+  "mongoSession": "localhost",
+  "mongoName": "users",
+  "mongoUser": "user",
+  "mongoPass": "password"
 }

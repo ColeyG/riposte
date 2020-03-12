@@ -3,5 +3,5 @@
 node_modules
 npm-debug.lo
 config/config.json
-backend/config.json
+backend/config/config.json
 package

@@ -2,7 +2,14 @@ const express = require('express');
 
 const router = express.Router();
 
-const randGen = (length) => '789hpuj34qjkd';
+const randGen = (length) => {
+  const set = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let resp = '';
+  for (let i = 0; i < length; i++) {
+    resp += set.charAt(Math.floor(Math.random() * set.length));
+  }
+  return resp;
+};
 
 router.get('/signIn', (req, res, next) => {
   const token = randGen(9);
