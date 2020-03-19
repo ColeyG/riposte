@@ -3,5 +3,6 @@
   "mongoSession": "localhost",
   "mongoName": "users",
   "mongoUser": "user",
-  "mongoPass": "password"
+  "mongoPass": "password",
+  "remoteUrl": "localhost"
 }

@@ -1,4 +1,5 @@
 const express = require('express');
+const config = require('../config/config.json');
 
 const router = express.Router();
 
@@ -17,7 +18,7 @@ router.get('/signIn', (req, res, next) => {
   res
     .status(200)
     .contentType('text/json')
-    .end(`{"url": "http://localhost:3000/","name": "signInCookie", "value": "${token}", "expirationDate": 99999999999999999999}`);
+    .end(`{"url": "${config.remoteUrl}","name": "accountCookie", "value": "${token}", "expirationDate": 99999999999999999999}`);
 });
 
 module.exports = router;

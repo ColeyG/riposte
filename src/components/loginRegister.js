@@ -31,6 +31,7 @@ class LoginRegister extends React.Component {
     )
       .then((data) => {
         // session.defaultSession.cookies.set(data);
+        console.log(data);
         ipcRenderer.send('cookie-save', data);
       });
   }
