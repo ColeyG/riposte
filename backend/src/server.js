@@ -3,6 +3,7 @@ const express = require('express');
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 
 const app = express();
 const httpServer = http.createServer(app);
@@ -29,6 +30,10 @@ const accountRouter = require('../routes/account.js');
 
 app.use(session({ secret: config.sessionSecret, saveUninitialized: true, resave: true }));
 app.use(cookieParser());
+app.use(bodyParser.urlencoded({
+  extended: true,
+}));
+app.use(bodyParser.json());
 
 app.use('/', indexRouter);
 app.use('/account', accountRouter);
