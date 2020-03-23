@@ -63,3 +63,7 @@ ipcMain.on('cookie-save', (event, arg) => {
       console.error(error);
     });
 });
+
+ipcMain.on('cookie-clear', (event, arg) => {
+  session.defaultSession.clearStorageData([], (data) => { });
+});

@@ -46,7 +46,8 @@ class LoginRegister extends React.Component {
             errors: data.errors,
           });
         } else {
-          // ipcRenderer.send('cookie-save', data);
+          ipcRenderer.send('cookie-clear');
+          ipcRenderer.send('cookie-save', data);
           this.setState({
             success: 'Successful Account Creation!',
           });
@@ -74,7 +75,8 @@ class LoginRegister extends React.Component {
             errors: data.errors,
           });
         } else {
-          // ipcRenderer.send('cookie-save', data);
+          ipcRenderer.send('cookie-clear');
+          ipcRenderer.send('cookie-save', data);
           this.setState({
             success: 'Successful Login!',
           });
