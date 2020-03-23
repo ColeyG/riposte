@@ -4,8 +4,8 @@ import { session, ipcRenderer } from 'electron';
 import config from '../../config/config.json';
 
 class LoginRegister extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       signUp: true, visible: true, errors: [], success: '',
     };
@@ -45,12 +45,13 @@ class LoginRegister extends React.Component {
           this.setState({
             errors: data.errors,
           });
-        } else if (data.success) {
+        } else {
+          // ipcRenderer.send('cookie-save', data);
           this.setState({
-            success: data.success,
+            success: 'Successful Account Creation!',
           });
+          setTimeout(() => { this.props.loginMethod(); }, 1000);
         }
-        // ipcRenderer.send('cookie-save', data);
       });
   }
 
@@ -73,7 +74,11 @@ class LoginRegister extends React.Component {
             errors: data.errors,
           });
         } else {
-          ipcRenderer.send('cookie-save', data);
+          // ipcRenderer.send('cookie-save', data);
+          this.setState({
+            success: 'Successful Login!',
+          });
+          setTimeout(() => { this.props.loginMethod(); }, 1000);
         }
       });
   }

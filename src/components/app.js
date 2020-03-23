@@ -16,6 +16,12 @@ class App extends React.Component {
     });
   }
 
+  loginSuccess = () => {
+    this.setState({
+      loggedIn: true,
+    });
+  }
+
   render() {
     if (this.state.loading) {
       return (
@@ -26,7 +32,7 @@ class App extends React.Component {
       return (
         <React.Fragment>
           <Header />
-          <LoginRegister />
+          <LoginRegister loginMethod={this.loginSuccess} />
         </React.Fragment>
       );
     }
