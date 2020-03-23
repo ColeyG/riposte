@@ -1,4 +1,5 @@
 const express = require('express');
+const crypto = require('crypto');
 const config = require('../config/config.json');
 const User = require('../models/User');
 
@@ -13,6 +14,23 @@ const randGen = (length) => {
   return resp;
 };
 
+const genRandomString = (length) => crypto.randomBytes(Math.ceil(length / 2))
+  .toString('hex')
+  .slice(0, length);
+
+const hashSha512 = (password, salt) => {
+  const hash = crypto.createHmac('sha512', salt);
+  hash.update(password);
+  const value = hash.digest('hex');
+  return value;
+};
+
+const errorWrap = (errors) => {
+  const errorResp = {};
+  errorResp.errors = errors;
+  return errorResp;
+};
+
 router.get('/signIn', (req, res, next) => {
   const token = randGen(9);
 
@@ -25,38 +43,62 @@ router.get('/signIn', (req, res, next) => {
 router.post('/register', (req, res, next) => {
   const errors = [];
 
-  console.log(`${req.body.password}, ${req.body.passwordConfirm}`);
-
   if (req.body.username.length < 2) {
-    errors.push(' Usernames must be at least 2 characters long');
+    errors.push('Usernames must be at least 2 characters long');
   }
 
   if (!req.body.email.includes('@')) {
-    errors.push(' Emails must contain an @ symbol');
+    errors.push('Emails must contain an @ symbol');
   }
 
   if (req.body.password.length < 8) {
-    errors.push(' Passwords must contain at least 8 characters');
+    errors.push('Passwords must contain at least 8 characters');
   }
 
   if (req.body.password !== req.body.passwordConfirm) {
-    errors.push(' Passwords do not match');
+    errors.push('Passwords do not match');
   }
 
   if (errors.length > 0) {
     res.status(200)
       .contentType('text/plain')
-      .end(`Error(s):${errors}`);
+      .end(JSON.stringify(errorWrap(errors)));
   } else {
     // User validation passed, creating user account:
     // TODO: Hash & Salt the pws
-    const user = new User({ username: req.body.username, email: req.body.email, password: req.body.password });
+    const salt = genRandomString(11);
 
-    user.save(() => {
-      // TODO: Return a token to be saved in the cache here
-      res.status(200)
-        .contentType('text/plain')
-        .end(`username: ${req.body.username}, email: ${req.body.email}`);
+    const hash = hashSha512(req.body.password, salt);
+
+    const user = new User({
+      username: req.body.username,
+      email: req.body.email,
+      salt,
+      hash,
+    });
+
+    user.save((err) => {
+      if (err) {
+        if (err.code === 11000) {
+          errors.push('Username or Email is Duplicate');
+
+          res.status(200)
+            .contentType('text/json')
+            .end(JSON.stringify(errorWrap(errors)));
+        } else {
+          errors.push('Unknown Error');
+
+          res.status(200)
+            .contentType('text/json')
+            .end(JSON.stringify(errorWrap(errors)));
+        }
+      } else {
+        const token = randGen(9);
+
+        res.status(200)
+          .contentType('text/plain')
+          .end(`{"url": "${config.remoteUrl}","name": "accountCookie", "value": "${token}", "expirationDate": 99999999999999999999}`);
+      }
     });
   }
 });

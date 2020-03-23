@@ -6,7 +6,7 @@ import config from '../../config/config.json';
 class LoginRegister extends React.Component {
   constructor() {
     super();
-    this.state = { signUp: true, visible: true };
+    this.state = { signUp: true, visible: true, errors: [] };
   }
 
   componentDidMount() {
@@ -30,8 +30,6 @@ class LoginRegister extends React.Component {
       (resp) => resp.json(),
     )
       .then((data) => {
-        // session.defaultSession.cookies.set(data);
-        console.log(data);
         ipcRenderer.send('cookie-save', data);
       });
   }
@@ -47,12 +45,16 @@ class LoginRegister extends React.Component {
       method: 'POST',
       body: data,
     }).then(
-      (resp) => resp.text(),
+      (resp) => resp.json(),
     )
       .then((data) => {
-        // session.defaultSession.cookies.set(data);
-        console.log(data);
-        // ipcRenderer.send('cookie-save', data);
+        if (data.errors) {
+          this.setState({
+            errors: data.errors,
+          });
+        } else {
+          ipcRenderer.send('cookie-save', data);
+        }
       });
   }
 
@@ -66,6 +68,9 @@ class LoginRegister extends React.Component {
           <label htmlFor="password">Password</label>
           <input name="password" id="password" type="password" />
           <button type="button" onClick={this.signInAction}>Sign In</button>
+          <div className="error-field">
+            {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
+          </div>
           <p>Haven't played yet?</p>
           <button type="button" onClick={this.swapForm}>Create an Account</button>
         </form>
@@ -83,6 +88,9 @@ class LoginRegister extends React.Component {
         <label htmlFor="passwordConfirm">Confirm Password</label>
         <input name="passwordConfirm" id="passwordConfirm" type="password" />
         <button type="button" onClick={this.createAccountAction}>Create an Account</button>
+        <div className="error-field">
+          {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
+        </div>
         <p>Already have an account?</p>
         <button type="button" onClick={this.swapForm}>Go to Sign In</button>
       </form>
