@@ -6,7 +6,9 @@ import config from '../../config/config.json';
 class LoginRegister extends React.Component {
   constructor() {
     super();
-    this.state = { signUp: true, visible: true, errors: [] };
+    this.state = {
+      signUp: true, visible: true, errors: [], success: '',
+    };
   }
 
   componentDidMount() {
@@ -26,11 +28,29 @@ class LoginRegister extends React.Component {
   }
 
   signInAction = () => {
-    fetch(`${config.server}/account/signIn`).then(
+    const data = new URLSearchParams();
+    // eslint-disable-next-line no-restricted-syntax
+    for (const pair of new FormData(document.querySelector('.login-form'))) {
+      data.append(pair[0], pair[1]);
+    }
+
+    fetch(`${config.server}/account/signIn`, {
+      method: 'POST',
+      body: data,
+    }).then(
       (resp) => resp.json(),
     )
       .then((data) => {
-        ipcRenderer.send('cookie-save', data);
+        if (data.errors) {
+          this.setState({
+            errors: data.errors,
+          });
+        } else if (data.success) {
+          this.setState({
+            success: data.success,
+          });
+        }
+        // ipcRenderer.send('cookie-save', data);
       });
   }
 
@@ -71,6 +91,11 @@ class LoginRegister extends React.Component {
           <div className="error-field">
             {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
           </div>
+          <div className="success-field">
+            <p className="success">
+              {this.state.success}
+            </p>
+          </div>
           <p>Haven't played yet?</p>
           <button type="button" onClick={this.swapForm}>Create an Account</button>
         </form>
@@ -90,6 +115,11 @@ class LoginRegister extends React.Component {
         <button type="button" onClick={this.createAccountAction}>Create an Account</button>
         <div className="error-field">
           {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
+        </div>
+        <div className="success-field">
+          <p className="success">
+            {this.state.success}
+          </p>
         </div>
         <p>Already have an account?</p>
         <button type="button" onClick={this.swapForm}>Go to Sign In</button>

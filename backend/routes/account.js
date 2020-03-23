@@ -31,13 +31,45 @@ const errorWrap = (errors) => {
   return errorResp;
 };
 
-router.get('/signIn', (req, res, next) => {
+const successWrap = () => {
+  const successResp = {};
+  successResp.success = 'Successful login';
+  return successResp;
+};
+
+router.post('/signIn', (req, res, next) => {
   const token = randGen(9);
 
-  res
-    .status(200)
-    .contentType('text/json')
-    .end(`{"url": "${config.remoteUrl}","name": "accountCookie", "value": "${token}", "expirationDate": 99999999999999999999}`);
+  // console.log(`${req.body.username},${req.body.password}`);
+
+  User.find({ username: req.body.username }, (err, users) => {
+    if (err) {
+      console.log(err);
+    } else {
+      const user = users[0];
+      const hash = hashSha512(req.body.password, user.salt);
+      const errors = [];
+
+      if (hash === user.hash) {
+        res
+          .status(200)
+          .contentType('text/json')
+          .end(JSON.stringify(successWrap()));
+      } else {
+        errors.push('User Verification Failed!');
+
+        res
+          .status(200)
+          .contentType('text/json')
+          .end(JSON.stringify(errorWrap(errors)));
+      }
+    }
+  });
+
+  // res
+  //   .status(200)
+  //   .contentType('text/json')
+  //   .end(`{"url": "${config.remoteUrl}","name": "accountCookie", "value": "${token}", "expirationDate": 99999999999999999999}`);
 });
 
 router.post('/register', (req, res, next) => {
@@ -65,7 +97,6 @@ router.post('/register', (req, res, next) => {
       .end(JSON.stringify(errorWrap(errors)));
   } else {
     // User validation passed, creating user account:
-    // TODO: Hash & Salt the pws
     const salt = genRandomString(11);
 
     const hash = hashSha512(req.body.password, salt);

@@ -4,6 +4,7 @@ $tan: #ffd4af;
 $pink: #f9627d;
 $grey: #cbc0d3;
 $lapis: #2274a5;
+$green: #00a878;
 $blue: #1f2041;
 $black: #16161d;
 
@@ -75,4 +76,8 @@ body {
 
 .error-field .error {
   color: $pink;
+}
+
+.success-field .success {
+  color: $green;
 }
