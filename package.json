@@ -7,7 +7,7 @@
     "start": "electron src/electron.js",
     "dev": "webpack --mode development --config config/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint -c config/.eslintrc.json src/",
+    "lint": "eslint -c src/.eslintrc.json src/; eslint -c src/.eslintrc.json backend/src/; eslint -c src/.eslintrc.json backend/models/",
     "server-setup": "cd backend/; npm install",
     "server": "cd backend/; npm run server",
     "package": "electron-builder -wl"

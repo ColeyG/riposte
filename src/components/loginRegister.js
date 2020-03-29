@@ -14,6 +14,7 @@ class LoginRegister extends React.Component {
   componentDidMount() {
     ipcRenderer.on('cookie-response', (event, arg) => {
       console.log(arg);
+      // TODO: Login Via Token
     });
 
     ipcRenderer.send('cookie-request');
