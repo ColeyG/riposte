@@ -1,7 +1,9 @@
+/* eslint-disable no-underscore-dangle */
 const express = require('express');
 const crypto = require('crypto');
 const config = require('../config/config.json');
 const User = require('../models/User');
+const Token = require('../models/Tokens');
 
 const router = express.Router();
 
@@ -32,20 +34,22 @@ const errorWrap = (errors) => {
 };
 
 router.post('/signIn', (req, res, next) => {
-  const token = randGen(9);
-
-  // console.log(`${req.body.username},${req.body.password}`);
-
   User.find({ username: req.body.username }, (err, users) => {
     if (err) {
       console.log(err);
     } else {
       const user = users[0];
       const hash = hashSha512(req.body.password, user.salt);
-      const token = randGen(9);
       const errors = [];
 
       if (hash === user.hash) {
+        const token = randGen(9);
+
+        const successToken = new Token({
+          tag: token, expired: false, origin: config.remoteUrl, user: user._id,
+        });
+        successToken.save();
+
         res
           .status(200)
           .contentType('text/json')
@@ -98,7 +102,7 @@ router.post('/register', (req, res, next) => {
       hash,
     });
 
-    user.save((err) => {
+    user.save((err, data) => {
       if (err) {
         if (err.code === 11000) {
           errors.push('Username or Email is Duplicate');
@@ -115,6 +119,11 @@ router.post('/register', (req, res, next) => {
         }
       } else {
         const token = randGen(9);
+
+        const successToken = new Token({
+          tag: token, expired: false, origin: config.remoteUrl, user: data._id,
+        });
+        successToken.save();
 
         res.status(200)
           .contentType('text/plain')

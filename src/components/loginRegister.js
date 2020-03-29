@@ -49,7 +49,7 @@ class LoginRegister extends React.Component {
           ipcRenderer.send('cookie-clear');
           ipcRenderer.send('cookie-save', data);
           this.setState({
-            success: 'Successful Account Creation!',
+            success: 'Successful Login!',
           });
           setTimeout(() => { this.props.loginMethod(); }, 1000);
         }
@@ -78,7 +78,7 @@ class LoginRegister extends React.Component {
           ipcRenderer.send('cookie-clear');
           ipcRenderer.send('cookie-save', data);
           this.setState({
-            success: 'Successful Login!',
+            success: 'Successful Account Creation!',
           });
           setTimeout(() => { this.props.loginMethod(); }, 1000);
         }
