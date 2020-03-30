@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './header';
 import LoadingScreen from './loadingScreen';
 import LoginRegister from './loginRegister';
-import Main from './main';
+import Home from './home';
 
 class App extends React.Component {
   constructor() {
@@ -39,7 +39,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Header />
-        <Main />
+        <Home />
       </React.Fragment>
     );
   }

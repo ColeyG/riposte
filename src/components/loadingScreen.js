@@ -38,7 +38,7 @@ class LoadingScreen extends React.Component {
 
   render() {
     return (
-      <div id="loading-screen">
+      <div className="loading-screen">
         <h2>Loading...{this.state.slash}</h2>
       </div>
     );
