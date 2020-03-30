@@ -133,4 +133,19 @@ router.post('/register', (req, res, next) => {
   }
 });
 
+router.get('/token/:uid', (req, res, next) => {
+  Token.find({ tag: req.params.uid }, (err, token) => {
+    if (err) {
+      console.log(err);
+      res.status(200)
+        .contentType('text/json')
+        .end(JSON.stringify({ expired: true }));
+    } else {
+      res.status(200)
+        .contentType('text/json')
+        .end(JSON.stringify(token[0]));
+    }
+  });
+});
+
 module.exports = router;

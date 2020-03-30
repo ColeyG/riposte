@@ -12,12 +12,35 @@ class LoginRegister extends React.Component {
   }
 
   componentDidMount() {
+    // TODO: Don't show form until cookie is validated
     ipcRenderer.on('cookie-response', (event, arg) => {
       console.log(arg);
-      // TODO: Login Via Token
+      if (arg.name === 'accountCookie') {
+        this.foundAccountCookie(arg.value);
+      } else {
+        arg.forEach((cookie) => {
+          if (cookie.name === 'accountCookie') {
+            this.foundAccountCookie(cookie.value);
+          }
+        });
+      }
     });
 
     ipcRenderer.send('cookie-request');
+  }
+
+  foundAccountCookie = (value) => {
+    fetch(`${config.server}/account/token/${value}`).then(
+      (resp) => resp.json(),
+    ).then((data) => {
+      if (data.expired === false) {
+        this.props.loginMethod();
+      } else {
+        this.setState({
+          errors: ['Login Session Expired'],
+        });
+      }
+    });
   }
 
   toggleHideForm = () => {

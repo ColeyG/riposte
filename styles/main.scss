@@ -31,9 +31,16 @@ body {
   @include vt($color: $black, $size: 16pt);
 }
 
+#app {
+  height: 100vh;
+  @include flex-c-s-c();
+}
+
 // Pages
 @import "./pages/home.scss";
 @import "./pages/loading-screen.scss";
+
+// Components
 
 .primary-header {
   width: 100%;
