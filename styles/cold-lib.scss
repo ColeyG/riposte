@@ -1,13 +1,36 @@
+// Cold Lib SCSS V0.0.2
+
 $default-map: (
-  "xsmall": 320px,
-  "small": 500px,
-  "medium": 700px,
-  "large": 1000px,
-  "xlarge": 1200px
+  "xxsmall": 320px,
+  "xsmall": 500px,
+  "small": 700px,
+  "medium": 1000px,
+  "large": 1200px,
+  "xlarge": 1500px,
 );
 
-@function break($value, $map: $default-map) {
-  @return map-get($map: $map, $key: $value);
+$default-colors: (
+  "black": #16161d,
+  "white": white,
+);
+
+@function break($value, $map: $default-map, $max: false) {
+  $width: map-get($default-map, $value);
+  @if $max {
+    @return "max-width: #{$width}";
+  } @else {
+    @return "min-width: #{$width}";
+  }
+}
+
+@mixin breakpoint($value, $down: false, $map: $default-map) {
+  @media screen and (break($value, $max: $down)) {
+    @content;
+  }
+}
+
+@function color($value, $map: $default-colors) {
+  @return map-get($map, $value);
 }
 
 @mixin button-normalize() {
@@ -22,7 +45,20 @@ $default-map: (
   border: none;
 }
 
-.sr-only {
+@mixin center-article() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  article,
+  .article,
+  .article-center {
+    position: relative;
+    max-width: 1200px;
+  }
+}
+
+@mixin sr-only() {
   position: absolute !important;
   height: 1px;
   width: 1px;
@@ -30,3 +66,117 @@ $default-map: (
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
 }
+
+.sr-only {
+  @include sr-only();
+}
+
+@mixin default-hr($size: 10px) {
+  width: $size;
+  height: $size;
+  border: none;
+  background-color: color("black");
+}
+
+hr {
+  @include default-hr();
+}
+
+@mixin flex-c-c-c() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin flex-c-c-cr() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+@mixin flex-c-s-c() {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@mixin flex-s-c-c() {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin flex-s-s-c() {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@mixin flex-c-c-r() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@mixin flex-e-c-c() {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin flex-e-e-c() {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+@mixin flex-s-c-r() {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+@mixin flex-e-c-r() {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+@mixin flex-sb-c-r() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+@mixin flex-sb-s-r() {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+// Usages:
+
+// @mixin playfair($color: $black, $size: 16pt, $weight: normal) {
+//   color: $color;
+//   font-size: $size;
+//   font-weight: $weight;
+//   font-family: "Playfair Display", serif;
+// }
+
+// @media screen and(break("xxsmall")) {
+//   body {
+//     background-color: red !important;
+//   }
+// }
