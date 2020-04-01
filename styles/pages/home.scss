@@ -1,4 +1,5 @@
 .home {
-  width: 100%;
-  flex-grow: 2;
+  box-sizing: border-box;
+  background-color: $blue;
+  height: 100%;
 }

@@ -2,8 +2,16 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className="home">
-    </div>
+    <React.Fragment>
+      <div className="page">
+        <div className="home">
+        </div>
+
+      </div>
+      <footer className="primary-footer">
+
+      </footer>
+    </ React.Fragment >
   );
 }
 

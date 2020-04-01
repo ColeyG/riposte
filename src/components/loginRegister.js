@@ -112,13 +112,41 @@ class LoginRegister extends React.Component {
   render() {
     if (this.state.signUp) {
       return (
-        <form action="" className="login-form">
-          <h2><span className="active">Login</span> | Register</h2>
+        <div className="page">
+          <form action="" className="login-form">
+            <h2><span className="active">Login</span> | Register</h2>
+            <label htmlFor="username">Username</label>
+            <input name="username" id="username" type="text" />
+            <label htmlFor="password">Password</label>
+            <input name="password" id="password" type="password" />
+            <button type="button" onClick={this.signInAction}>Sign In</button>
+            <div className="error-field">
+              {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
+            </div>
+            <div className="success-field">
+              <p className="success">
+                {this.state.success}
+              </p>
+            </div>
+            <p>Haven't played yet?</p>
+            <button type="button" onClick={this.swapForm}>Create an Account</button>
+          </form>
+        </div>
+      );
+    }
+    return (
+      <div className="page">
+        <form action="" className="register-form">
+          <h2>Login | <span className="active">Register</span></h2>
           <label htmlFor="username">Username</label>
           <input name="username" id="username" type="text" />
+          <label htmlFor="email">Email</label>
+          <input name="email" id="email" type="text" />
           <label htmlFor="password">Password</label>
           <input name="password" id="password" type="password" />
-          <button type="button" onClick={this.signInAction}>Sign In</button>
+          <label htmlFor="passwordConfirm">Confirm Password</label>
+          <input name="passwordConfirm" id="passwordConfirm" type="password" />
+          <button type="button" onClick={this.createAccountAction}>Create an Account</button>
           <div className="error-field">
             {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
           </div>
@@ -127,34 +155,10 @@ class LoginRegister extends React.Component {
               {this.state.success}
             </p>
           </div>
-          <p>Haven't played yet?</p>
-          <button type="button" onClick={this.swapForm}>Create an Account</button>
+          <p>Already have an account?</p>
+          <button type="button" onClick={this.swapForm}>Go to Sign In</button>
         </form>
-      );
-    }
-    return (
-      <form action="" className="register-form">
-        <h2>Login | <span className="active">Register</span></h2>
-        <label htmlFor="username">Username</label>
-        <input name="username" id="username" type="text" />
-        <label htmlFor="email">Email</label>
-        <input name="email" id="email" type="text" />
-        <label htmlFor="password">Password</label>
-        <input name="password" id="password" type="password" />
-        <label htmlFor="passwordConfirm">Confirm Password</label>
-        <input name="passwordConfirm" id="passwordConfirm" type="password" />
-        <button type="button" onClick={this.createAccountAction}>Create an Account</button>
-        <div className="error-field">
-          {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
-        </div>
-        <div className="success-field">
-          <p className="success">
-            {this.state.success}
-          </p>
-        </div>
-        <p>Already have an account?</p>
-        <button type="button" onClick={this.swapForm}>Go to Sign In</button>
-      </form>
+      </div>
     );
   }
 }
