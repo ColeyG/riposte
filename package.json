@@ -10,7 +10,8 @@
     "lint": "eslint -c src/.eslintrc.json src/; eslint -c src/.eslintrc.json backend/src/; eslint -c src/.eslintrc.json backend/models/",
     "server-setup": "cd backend/; npm install",
     "server": "cd backend/; npm run server",
-    "package": "electron-builder -wl"
+    "package": "electron-builder -wl",
+    "pixelate-images": "sh $(pwd)/scripts/pixelate.sh"
   },
   "author": "Cole Geerts",
   "license": "ISC",
