@@ -12,7 +12,7 @@ const config = require('../config/config.json');
 const PORT = process.env.PORT || 3000;
 
 mongoose.connect(`mongodb://${config.mongoUser}:${config.mongoPass}@${config.mongoSession}/${config.mongoName}?authSource=admin`, {
-  useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false,
+  useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false,
 }, (err) => {
   if (err) {
     console.log(err);
