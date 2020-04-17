@@ -139,7 +139,7 @@ router.get('/token/:uid', (req, res, next) => {
       console.log(err);
       res.status(200)
         .contentType('text/json')
-        .end(JSON.stringify({ expired: true }));
+        .end(JSON.stringify({ expired: true, err: `${err}` }));
     } else {
       res.status(200)
         .contentType('text/json')

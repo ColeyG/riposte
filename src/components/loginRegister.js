@@ -36,6 +36,7 @@ class LoginRegister extends React.Component {
       if (data.expired === false) {
         this.props.loginMethod();
       } else {
+        console.log(data.err);
         this.setState({
           errors: ['Login Session Expired'],
         });
