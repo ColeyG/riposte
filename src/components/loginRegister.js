@@ -14,7 +14,8 @@ class LoginRegister extends React.Component {
   componentDidMount() {
     // TODO: Don't show form until cookie is validated
     ipcRenderer.on('cookie-response', (event, arg) => {
-      console.log(arg);
+      // Shows cookies:
+      // console.log(arg);
       if (arg.name === 'accountCookie') {
         this.foundAccountCookie(arg.value);
       } else {
@@ -34,7 +35,7 @@ class LoginRegister extends React.Component {
       (resp) => resp.json(),
     ).then((data) => {
       if (data.expired === false) {
-        this.props.loginMethod();
+        this.props.loginMethod(data);
       } else {
         console.log(data.err);
         this.setState({
@@ -76,7 +77,7 @@ class LoginRegister extends React.Component {
           this.setState({
             success: 'Successful Login!',
           });
-          setTimeout(() => { this.props.loginMethod(); }, 1000);
+          setTimeout(() => { this.props.loginMethod(data.userData); }, 1000);
         }
       });
   }
@@ -105,7 +106,7 @@ class LoginRegister extends React.Component {
           this.setState({
             success: 'Successful Account Creation!',
           });
-          setTimeout(() => { this.props.loginMethod(); }, 1000);
+          setTimeout(() => { this.props.loginMethod(data.userData); }, 1000);
         }
       });
   }

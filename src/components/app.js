@@ -7,7 +7,11 @@ import Home from './home';
 class App extends React.Component {
   constructor() {
     super();
-    this.state = { loading: true, loggedIn: false };
+    this.state = {
+      loading: true,
+      loggedIn: false,
+      userData: {},
+    };
   }
 
   finishLoading = () => {
@@ -16,9 +20,11 @@ class App extends React.Component {
     });
   }
 
-  loginSuccess = () => {
+  loginSuccess = (data) => {
+    console.log(data);
     this.setState({
       loggedIn: true,
+      userData: data,
     });
   }
 

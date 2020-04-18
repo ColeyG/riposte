@@ -1,3 +1,4 @@
+/* eslint-disable no-lonely-if */
 /* eslint-disable no-underscore-dangle */
 const express = require('express');
 const crypto = require('crypto');
@@ -53,7 +54,11 @@ router.post('/signIn', (req, res, next) => {
         res
           .status(200)
           .contentType('text/json')
-          .end(`{"url": "${config.remoteUrl}","name": "accountCookie", "value": "${token}", "expirationDate": 99999999999999999999}`);
+          .end(`{"url": "${config.remoteUrl}",
+          "name": "accountCookie",
+          "value": "${token}",
+          "expirationDate": 99999999999999999999,
+          "userData": {"expired": false, "username": "${user.username}", "tag": "${token}"}}`);
       } else {
         errors.push('User Verification Failed!');
 
@@ -127,7 +132,11 @@ router.post('/register', (req, res, next) => {
 
         res.status(200)
           .contentType('text/plain')
-          .end(`{"url": "${config.remoteUrl}","name": "accountCookie", "value": "${token}", "expirationDate": 99999999999999999999}`);
+          .end(`{"url": "${config.remoteUrl}",
+          "name": "accountCookie",
+          "value": "${token}",
+          "expirationDate": 99999999999999999999,
+          "userData": {"expired": false, "username": "${data.username}", "tag": "${token}"}}`);
       }
     });
   }
@@ -141,9 +150,29 @@ router.get('/token/:uid', (req, res, next) => {
         .contentType('text/json')
         .end(JSON.stringify({ expired: true, err: `${err}` }));
     } else {
-      res.status(200)
-        .contentType('text/json')
-        .end(JSON.stringify(token[0]));
+      // TODO: Fix this solution, shouldn't need to grab associated user via a fetch here but whatever
+      if (!token.length < 1) {
+        User.findById(token[0].user, (err, user) => {
+          if (err) {
+            console.log(err);
+            // user found but some error fetching more info
+            res.status(200)
+              .contentType('text/json')
+              .end(JSON.stringify({ expired: true, err: `${err}` }));
+          } else {
+            const data = { expired: false, username: user.username, tag: token[0].tag };
+            res.status(200)
+              .contentType('text/json')
+              .end(JSON.stringify(data));
+          }
+        });
+      } else {
+        console.log('No tag found');
+        // no tag found of uid x
+        res.status(200)
+          .contentType('text/json')
+          .end(JSON.stringify({ expired: true, err: 'No tag found' }));
+      }
     }
   });
 });
