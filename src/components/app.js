@@ -45,7 +45,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Header />
-        <Home />
+        <Home userData={this.state.userData} />
       </React.Fragment>
     );
   }

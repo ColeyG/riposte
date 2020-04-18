@@ -53,6 +53,7 @@ body {
 // Components
 
 @import "./components/icon.scss";
+@import "./components/primary-footer.scss";
 
 // Components not saved in individual files:
 
@@ -94,14 +95,6 @@ body {
       }
     }
   }
-}
-
-.primary-footer {
-  box-sizing: border-box;
-  width: 100%;
-  height: 30px;
-  background-color: $tan;
-  @include bezel-reverse();
 }
 
 .error-field .error {

@@ -27,13 +27,6 @@ class Home extends React.Component {
             console.log('asdf');
           },
         },
-        {
-          name: 'Map',
-          image: 'assets/homeIcons/map.png',
-          method: () => {
-            console.log('asdf');
-          },
-        },
       ],
     };
   }
@@ -52,7 +45,7 @@ class Home extends React.Component {
 
         </div>
         <footer className="primary-footer">
-
+          <p className="username">{this.props.userData.username}</p>
         </footer>
       </ React.Fragment >
     );

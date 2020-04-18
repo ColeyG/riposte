@@ -5,6 +5,12 @@
   align-items: center;
   flex-direction: column;
   text-decoration: none;
+  &:focus {
+    .icon-image {
+      backdrop-filter: blur(8px);
+      box-shadow: inset 0px 0px 5px rgba($black, 0.5);
+    }
+  }
   .name {
     box-sizing: border-box;
     color: $white;
