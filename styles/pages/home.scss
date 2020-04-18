@@ -1,5 +1,12 @@
 .home {
   box-sizing: border-box;
-  background-color: $blue;
+  background-image: url("../assets/pixelated/bliss.png");
+  image-rendering: pixelated;
+  background-size: cover;
   height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
 }

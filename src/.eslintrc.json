@@ -16,6 +16,7 @@
     "sourceType": "module"
   },
   "rules": {
+    "prefer-const": "off",
     "class-methods-use-this": "off",
     "no-console": "off",
     "no-plusplus": "off",

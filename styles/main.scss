@@ -1,5 +1,6 @@
 @import "./cold-lib.scss";
 
+$white: white;
 $tan: #ffd4af;
 $pink: #f9627d;
 $grey: #cbc0d3;
@@ -45,14 +46,15 @@ body {
 
 .page {
   width: 100%;
+  height: 100%;
   flex-grow: 2;
 }
 
-// Pages
-@import "./pages/home.scss";
-@import "./pages/loading-screen.scss";
-
 // Components
+
+@import "./components/icon.scss";
+
+// Components not saved in individual files:
 
 .primary-header {
   width: 100%;
@@ -109,3 +111,7 @@ body {
 .success-field .success {
   color: $green;
 }
+
+// Pages
+@import "./pages/home.scss";
+@import "./pages/loading-screen.scss";
