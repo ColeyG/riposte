@@ -14,6 +14,20 @@ class Home extends React.Component {
           },
         },
         {
+          name: 'Singleplayer',
+          image: 'assets/homeIcons/singleplayer.png',
+          method: () => {
+            console.log('asdf');
+          },
+        },
+        {
+          name: 'Multiplayer',
+          image: 'assets/homeIcons/multiplayer.png',
+          method: () => {
+            console.log('asdf');
+          },
+        },
+        {
           name: 'My PC',
           image: 'assets/homeIcons/pc.png',
           method: () => {
@@ -23,6 +37,13 @@ class Home extends React.Component {
         {
           name: 'Map',
           image: 'assets/homeIcons/map.png',
+          method: () => {
+            console.log('asdf');
+          },
+        },
+        {
+          name: 'Settings',
+          image: 'assets/homeIcons/settings.png',
           method: () => {
             console.log('asdf');
           },
