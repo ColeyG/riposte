@@ -7,23 +7,32 @@ class LoginRegister extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      signUp: true, visible: true, errors: [], success: '',
+      loading: true,
+      signUp: true,
+      visible: true,
+      errors: [],
+      success: '',
     };
   }
 
   componentDidMount() {
     // TODO: Don't show form until cookie is validated
     ipcRenderer.on('cookie-response', (event, arg) => {
+      let foundAccountCookieBool = false;
       // Shows cookies:
       // console.log(arg);
       if (arg.name === 'accountCookie') {
         this.foundAccountCookie(arg.value);
-      } else {
-        arg.forEach((cookie) => {
-          if (cookie.name === 'accountCookie') {
-            this.foundAccountCookie(cookie.value);
-          }
-        });
+        foundAccountCookieBool = true;
+      }
+      arg.forEach((cookie) => {
+        if (cookie.name === 'accountCookie') {
+          this.foundAccountCookie(cookie.value);
+          foundAccountCookieBool = true;
+        }
+      });
+      if (!foundAccountCookieBool) {
+        this.setState({ loading: false });
       }
     });
 
@@ -31,18 +40,26 @@ class LoginRegister extends React.Component {
   }
 
   foundAccountCookie = (value) => {
-    fetch(`${config.server}/account/token/${value}`).then(
-      (resp) => resp.json(),
-    ).then((data) => {
-      if (data.expired === false) {
-        this.props.loginMethod(data);
-      } else {
-        console.log(data.err);
+    fetch(`${config.server}/account/token/${value}`)
+      .catch((err) => {
+        this.setState({ loading: false });
         this.setState({
           errors: ['Login Session Expired'],
         });
-      }
-    });
+      })
+      .then(
+        (resp) => resp.json(),
+      ).then((data) => {
+        if (data.expired === false) {
+          this.props.loginMethod(data);
+          this.setState({ loading: false });
+        } else {
+          this.setState({ loading: false });
+          this.setState({
+            errors: ['Login Session Expired'],
+          });
+        }
+      });
   }
 
   toggleHideForm = () => {
@@ -112,15 +129,28 @@ class LoginRegister extends React.Component {
   }
 
   render() {
+    if (this.state.loading) {
+      return (
+        <div className="page">
+          <div className="login-register-loading">
+
+          </div>
+        </div>
+      );
+    }
     if (this.state.signUp) {
       return (
         <div className="page">
           <form action="" className="login-form">
             <h2><span className="active">Login</span> | <span className="inactive" onClick={this.swapForm}>Register</span></h2>
             <label htmlFor="username">Username</label>
+            <br />
             <input name="username" id="username" type="text" />
+            <br />
             <label htmlFor="password">Password</label>
+            <br />
             <input name="password" id="password" type="password" />
+            <br />
             <button type="button" onClick={this.signInAction}>Sign In</button>
             <div className="error-field">
               {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
@@ -141,13 +171,21 @@ class LoginRegister extends React.Component {
         <form action="" className="register-form">
           <h2><span className="inactive" onClick={this.swapForm}>Login</span> | <span className="active">Register</span></h2>
           <label htmlFor="username">Username</label>
+          <br />
           <input name="username" id="username" type="text" />
+          <br />
           <label htmlFor="email">Email</label>
+          <br />
           <input name="email" id="email" type="text" />
+          <br />
           <label htmlFor="password">Password</label>
+          <br />
           <input name="password" id="password" type="password" />
+          <br />
           <label htmlFor="passwordConfirm">Confirm Password</label>
+          <br />
           <input name="passwordConfirm" id="passwordConfirm" type="password" />
+          <br />
           <button type="button" onClick={this.createAccountAction}>Create your Account</button>
           <div className="error-field">
             {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
