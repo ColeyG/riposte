@@ -1,0 +1,30 @@
+.register-form,
+.login-form {
+  box-sizing: border-box;
+  height: 100%;
+  background-color: $blue;
+  padding: 20px;
+  @include bezel(6px);
+  h2,
+  label,
+  p {
+    color: $white;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .active {
+    color: $tan;
+    border: 1px solid $green;
+    border-radius: 5px;
+    padding: 4px;
+  }
+  .inactive {
+    padding: 5px;
+    cursor: pointer;
+  }
+  button {
+    @include form-button();
+  }
+}

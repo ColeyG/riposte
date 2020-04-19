@@ -1,0 +1,11 @@
+@mixin form-button() {
+  @include bezel();
+  @include vt($color: $black, $size: 16pt);
+  padding: 5px;
+  background-color: $green;
+  cursor: pointer;
+  &:focus {
+    @include bezel-reverse();
+    outline: none;
+  }
+}

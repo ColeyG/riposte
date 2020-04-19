@@ -116,7 +116,7 @@ class LoginRegister extends React.Component {
       return (
         <div className="page">
           <form action="" className="login-form">
-            <h2><span className="active">Login</span> | Register</h2>
+            <h2><span className="active">Login</span> | <span className="inactive" onClick={this.swapForm}>Register</span></h2>
             <label htmlFor="username">Username</label>
             <input name="username" id="username" type="text" />
             <label htmlFor="password">Password</label>
@@ -139,7 +139,7 @@ class LoginRegister extends React.Component {
     return (
       <div className="page">
         <form action="" className="register-form">
-          <h2>Login | <span className="active">Register</span></h2>
+          <h2><span className="inactive" onClick={this.swapForm}>Login</span> | <span className="active">Register</span></h2>
           <label htmlFor="username">Username</label>
           <input name="username" id="username" type="text" />
           <label htmlFor="email">Email</label>
@@ -148,7 +148,7 @@ class LoginRegister extends React.Component {
           <input name="password" id="password" type="password" />
           <label htmlFor="passwordConfirm">Confirm Password</label>
           <input name="passwordConfirm" id="passwordConfirm" type="password" />
-          <button type="button" onClick={this.createAccountAction}>Create an Account</button>
+          <button type="button" onClick={this.createAccountAction}>Create your Account</button>
           <div className="error-field">
             {this.state.errors.map((error, i) => (<p className="error" key={i}>{error}</p>))}
           </div>
