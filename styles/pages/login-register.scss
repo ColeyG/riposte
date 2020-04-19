@@ -28,6 +28,9 @@
     @include form-button();
     margin: 10px 0;
   }
+  .swap-button {
+    @include form-button($grey);
+  }
 }
 .login-register-loading {
   box-sizing: border-box;

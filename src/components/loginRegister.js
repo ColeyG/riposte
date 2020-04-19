@@ -161,7 +161,7 @@ class LoginRegister extends React.Component {
               </p>
             </div>
             <p>Haven't played yet?</p>
-            <button type="button" onClick={this.swapForm}>Create an Account</button>
+            <button className="swap-button" type="button" onClick={this.swapForm}>Create an Account</button>
           </form>
         </div>
       );
@@ -196,7 +196,7 @@ class LoginRegister extends React.Component {
             </p>
           </div>
           <p>Already have an account?</p>
-          <button type="button" onClick={this.swapForm}>Go to Sign In</button>
+          <button className="swap-button" type="button" onClick={this.swapForm}>Go to Sign In</button>
         </form>
       </div>
     );

@@ -1,8 +1,8 @@
-@mixin form-button() {
+@mixin form-button($color: $green) {
   @include bezel();
   @include vt($color: $black, $size: 16pt);
   padding: 5px;
-  background-color: $green;
+  background-color: $color;
   cursor: pointer;
   &:focus {
     @include bezel-reverse();
