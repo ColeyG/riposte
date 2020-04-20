@@ -4,6 +4,8 @@ Riposte is an open-source-first game developed as my thesis project for my advan
 
 ## Building
 
+A couple areas of the app have config files, make sure any example.config.json files are renamed and populated with appropriate data relative to the scope (ie: a mongo db)
+
 Game:
 `npm install` then `npm run start`
 
@@ -13,3 +15,7 @@ Server:
 ## Packaging
 
 `npm run package` will create a number of packages for the application.
+
+## Running
+
+As above, `npm run start` will run the app and `npm run server` will initiate a server that the frontend and db connect to.
