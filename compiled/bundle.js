@@ -86,6 +86,2591 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/game/resources sync recursive ^\\.\\/.*$":
+/*!*********************************************!*\
+  !*** ./assets/game/resources sync ^\.\/.*$ ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var map = {\n\t\"./Plebes/KingSuicide.png\": \"./assets/game/resources/Plebes/KingSuicide.png\",\n\t\"./Plebes/KingSuicide1x.png\": \"./assets/game/resources/Plebes/KingSuicide1x.png\",\n\t\"./Plebes/Plebes_V1_1x.png\": \"./assets/game/resources/Plebes/Plebes_V1_1x.png\",\n\t\"./Plebes/Plebes_V1_4x.png\": \"./assets/game/resources/Plebes/Plebes_V1_4x.png\",\n\t\"./Plebes/Plebes_V2_1x.png\": \"./assets/game/resources/Plebes/Plebes_V2_1x.png\",\n\t\"./Plebes/Plebes_V2_4x.png\": \"./assets/game/resources/Plebes/Plebes_V2_4x.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__01.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__01.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__02.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__02.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__03.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__03.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__04.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__04.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__05.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__05.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__06.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__06.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__07.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__07.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__08.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__08.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__09.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__09.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__10.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__10.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__11.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__11.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__12.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__12.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__13.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__13.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__14.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__14.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__15.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__15.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__16.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__16.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__17.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__17.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__18.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__18.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__19.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__19.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__20.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__20.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__21.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__21.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__22.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__22.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__23.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__23.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__24.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__24.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__25.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__25.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__26.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__26.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__27.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__27.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__28.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__28.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__29.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__29.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__30.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__30.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__31.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__31.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__32.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__32.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__33.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__33.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__34.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__34.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__35.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__35.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__36.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__36.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__37.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__37.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__38.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__38.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__39.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__39.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__40.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__40.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__41.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__41.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__42.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__42.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__43.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__43.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__44.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__44.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__45.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__45.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__46.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__46.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__47.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__47.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__48.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__48.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__49.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__49.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__50.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__50.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__51.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__51.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__52.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__52.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__53.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__53.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__54.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__54.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__55.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__55.png\",\n\t\"./Plebes/V1_1x/PixelPlebes_V1__56.png\": \"./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__56.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__01.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__01.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__02.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__02.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__03.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__03.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__04.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__04.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__05.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__05.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__06.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__06.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__07.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__07.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__08.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__08.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__09.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__09.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__10.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__10.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__11.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__11.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__12.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__12.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__13.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__13.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__14.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__14.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__15.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__15.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__16.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__16.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__17.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__17.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__18.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__18.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__19.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__19.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__20.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__20.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__21.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__21.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__22.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__22.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__23.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__23.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__24.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__24.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__25.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__25.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__26.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__26.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__27.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__27.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__28.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__28.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__29.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__29.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__30.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__30.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__31.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__31.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__32.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__32.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__33.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__33.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__34.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__34.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__35.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__35.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__36.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__36.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__37.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__37.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__38.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__38.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__39.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__39.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__40.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__40.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__41.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__41.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__42.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__42.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__43.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__43.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__44.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__44.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__45.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__45.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__46.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__46.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__47.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__47.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__48.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__48.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__49.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__49.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__50.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__50.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__51.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__51.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__52.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__52.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__53.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__53.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__54.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__54.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__55.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__55.png\",\n\t\"./Plebes/V1_4x/PixelPlebes_V1_4x__56.png\": \"./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__56.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__00.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__00.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__01.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__01.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__02.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__02.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__03.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__03.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__04.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__04.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__05.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__05.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__06.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__06.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__07.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__07.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__08.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__08.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__09.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__09.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__10.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__10.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__11.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__11.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__12.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__12.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__13.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__13.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__14.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__14.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__15.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__15.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__16.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__16.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__17.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__17.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__18.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__18.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__19.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__19.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__20.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__20.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__21.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__21.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__22.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__22.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__23.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__23.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__24.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__24.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__25.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__25.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__26.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__26.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__27.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__27.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__28.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__28.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__29.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__29.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__30.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__30.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__31.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__31.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__32.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__32.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__33.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__33.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__34.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__34.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__35.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__35.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__36.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__36.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__37.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__37.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__38.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__38.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__39.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__39.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__40.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__40.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__41.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__41.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__42.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__42.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__43.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__43.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__44.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__44.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__45.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__45.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__46.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__46.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__47.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__47.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__48.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__48.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__49.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__49.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__50.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__50.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__51.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__51.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__52.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__52.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__53.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__53.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__54.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__54.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__55.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__55.png\",\n\t\"./Plebes/V2_1x/PixelPlebes_V2_1x__56.png\": \"./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__56.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__00.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__00.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__01.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__01.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__02.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__02.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__03.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__03.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__04.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__04.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__05.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__05.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__06.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__06.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__07.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__07.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__08.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__08.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__09.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__09.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__10.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__10.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__11.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__11.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__12.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__12.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__13.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__13.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__14.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__14.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__15.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__15.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__16.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__16.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__17.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__17.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__18.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__18.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__19.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__19.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__20.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__20.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__21.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__21.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__22.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__22.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__23.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__23.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__24.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__24.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__25.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__25.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__26.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__26.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__27.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__27.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__28.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__28.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__29.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__29.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__30.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__30.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__31.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__31.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__32.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__32.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__33.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__33.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__34.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__34.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__35.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__35.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__36.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__36.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__37.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__37.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__38.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__38.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__39.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__39.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__40.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__40.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__41.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__41.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__42.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__42.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__43.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__43.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__44.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__44.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__45.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__45.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__46.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__46.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__47.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__47.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__48.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__48.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__49.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__49.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__50.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__50.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__51.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__51.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__52.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__52.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__53.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__53.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__54.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__54.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__55.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__55.png\",\n\t\"./Plebes/V2_4x/PixelPlebes_V2_4x__56.png\": \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__56.png\",\n\t\"./cork-wallet.png\": \"./assets/game/resources/cork-wallet.png\",\n\t\"./effects/polished-diamond.png\": \"./assets/game/resources/effects/polished-diamond.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./assets/game/resources sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./assets/game/resources_sync_^\\.\\/.*$?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/KingSuicide.png":
+/*!******************************************************!*\
+  !*** ./assets/game/resources/Plebes/KingSuicide.png ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ff2bcdbae2bd7f5b3345409c365a59e2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/KingSuicide.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/KingSuicide1x.png":
+/*!********************************************************!*\
+  !*** ./assets/game/resources/Plebes/KingSuicide1x.png ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a671632b5b937f0a6ca895644e67ff7d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/KingSuicide1x.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/Plebes_V1_1x.png":
+/*!*******************************************************!*\
+  !*** ./assets/game/resources/Plebes/Plebes_V1_1x.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3be1d1b697dceff4d0e3085b22f88808.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/Plebes_V1_1x.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/Plebes_V1_4x.png":
+/*!*******************************************************!*\
+  !*** ./assets/game/resources/Plebes/Plebes_V1_4x.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"26f9db52efff55f0145ba147278f8e43.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/Plebes_V1_4x.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/Plebes_V2_1x.png":
+/*!*******************************************************!*\
+  !*** ./assets/game/resources/Plebes/Plebes_V2_1x.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"44ff99225fde8b94e4bdb54d7f8b558a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/Plebes_V2_1x.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/Plebes_V2_4x.png":
+/*!*******************************************************!*\
+  !*** ./assets/game/resources/Plebes/Plebes_V2_4x.png ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2f8c15ccf2f7e3df172d511f80557e0c.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/Plebes_V2_4x.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__01.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__01.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ff8441bcc7d773d83e2de0b2201a5dde.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__01.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__02.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__02.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b94dcee56f80462c3fedde2df510cd9d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__02.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__03.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__03.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6c8045d3142a96cbc49ba93c8bf25ff5.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__03.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__04.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__04.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"53aa5f9b64e50248c67377be55cab498.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__04.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__05.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__05.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"cbef3f1fd95cb1d22cddb026f5bf6fb3.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__05.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__06.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__06.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f9141435e7d221295ee50be11b0d970c.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__06.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__07.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__07.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"972fc49b0ace478efd9eedb4b80cd623.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__07.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__08.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__08.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2960abcb0524152d4ef48016b2213453.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__08.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__09.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__09.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0f8b66d78cbae1d9e1f45412996c7402.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__09.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__10.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__10.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"5962dadc49343d256e04e793257e556f.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__10.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__11.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__11.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d6cab78363ca8f72d1f665414e4cb992.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__11.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__12.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__12.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"30025781397b7d7f14b9723467705cc4.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__12.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__13.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__13.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f880db7d12326d74250a936b4af44b4b.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__13.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__14.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__14.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4db34e73c376a466ce8a423601eadbf2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__14.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__15.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__15.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ac87499c961dab486dfdf7c17c6bfaec.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__15.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__16.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__16.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1f19f224be42251a57e4de1aeaa0a315.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__16.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__17.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__17.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6d814af0869e7f2c6ef21b5b9edc58d0.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__17.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__18.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__18.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"cbd194261c9affcefa6860eba5d82d33.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__18.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__19.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__19.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"7267cacea00685d16909fd88aa48813a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__19.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__20.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__20.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"eca101bc5cbb21924fad6fe1a6714f13.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__20.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__21.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__21.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a7dedda1f2345755406021dd2306c614.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__21.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__22.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__22.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"bcea736290a41905bd94f0a4fc367d02.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__22.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__23.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__23.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b6a5335a54a1b70abc390a256fbdf5ac.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__23.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__24.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__24.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b0cc7675745b1c81a25c64ede092f5ee.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__24.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__25.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__25.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0da29d0b9d8af4253dddaf5549d93c16.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__25.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__26.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__26.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"8c71e15167441853bf833b2bb8bbbfdf.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__26.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__27.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__27.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"fa66d4257a21caed32130fb333908bc8.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__27.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__28.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__28.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"5f37c8c4f55533deca113800b27107d8.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__28.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__29.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__29.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6eff0dff65053aed4eb59fb9279f61c9.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__29.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__30.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__30.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"78a662414cd5d2f0f9a6c5761087b9cd.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__30.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__31.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__31.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c6e997899b5427e0526f722a88f1ecad.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__31.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__32.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__32.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"7a607873765b19368debf722a3060c1d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__32.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__33.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__33.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"837cb194974a705250fe805c55e54662.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__33.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__34.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__34.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"50dc71bba014c7e1d43257ffc122ca8f.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__34.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__35.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__35.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0ea435a1cb49ae514bb6915a56dd2b62.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__35.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__36.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__36.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"94b2e8e3d1fae443f20a155af3529633.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__36.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__37.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__37.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9e051a4e2d1570c229d9af44cdea778c.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__37.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__38.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__38.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4db3fbadb891ac266dd65f5eaf620e5c.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__38.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__39.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__39.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3bba40cbe8771ccc419c51844d500db3.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__39.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__40.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__40.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"54a6ffe7c2245fe91aa455b2d7b27718.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__40.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__41.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__41.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f63556eb6b229275d07b8ad69bafbb18.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__41.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__42.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__42.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"20c250efb672a4250a513cee9cd185bb.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__42.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__43.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__43.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"eae5b703c5395c9072ffa39b0424cbda.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__43.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__44.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__44.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"75632828be493e1a4e599a44a1696964.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__44.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__45.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__45.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"92134ec9e1d920aaa5a0a4a55eee29f4.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__45.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__46.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__46.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f0ac92b9c63e33be7f0df38095b01127.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__46.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__47.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__47.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d97c61302c10e100c756b31c7f8554d8.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__47.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__48.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__48.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"e5fc2b53a808325aba0e292e1950fa06.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__48.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__49.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__49.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1980aee6397a990ed86591b5e1e12451.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__49.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__50.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__50.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f8d138879f183dcafc2cdc2241099ab4.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__50.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__51.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__51.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"cf2be5031f5bdf3f032c2f2a534014b2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__51.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__52.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__52.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1380a1e87bbf668859492e584efe9472.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__52.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__53.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__53.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"314e69cdc2effe632d5b0cdf6c91df06.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__53.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__54.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__54.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"56b3438acae2ff1587e37d636ffa5245.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__54.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__55.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__55.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a461c029faf1d2458d793db9c5ed4e4b.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__55.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__56.png":
+/*!*******************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__56.png ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"dbf519d58c66289ae02ad3537b5d65e2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_1x/PixelPlebes_V1__56.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__01.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__01.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"05028545bb28aa79f39b8a82496de033.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__01.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__02.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__02.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6593d0f4db0d82fda7c464879430ae6a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__02.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__03.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__03.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c6eaefb00cf7a4732d2563242d58cea2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__03.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__04.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__04.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ed7def24a9a51b3ee19b3b3bba5238ec.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__04.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__05.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__05.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c06039a49e1031196f18fb8a48d1371a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__05.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__06.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__06.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"58589e13ec825fe025f3b4649c071a94.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__06.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__07.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__07.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1b912880eb4e9bdeabb45bbbf66327a9.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__07.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__08.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__08.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9f552236e283fcf8e2de25534d66a3cc.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__08.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__09.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__09.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9e38526d70b2769d5d66c3876b1a9c6d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__09.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__10.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__10.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1223432053be549cdd99bd920557654e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__10.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__11.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__11.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"695612bfcf15b196aa198ae82ee514b8.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__11.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__12.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__12.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3aa5a906366442be9564ceb1ce891843.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__12.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__13.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__13.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2bfd07052850335a99646aaace22ce4e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__13.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__14.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__14.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"66971346be9b0240a9b915d916c354ab.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__14.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__15.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__15.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"dc7710735a9d35ecb6393a5c9d8b15ac.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__15.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__16.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__16.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"17072affd897ed2cb20007d96edac30d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__16.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__17.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__17.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"729c78a664fb5f37188474714c7e5db3.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__17.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__18.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__18.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"88c88fb080f6ccef6846b7e25e22e913.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__18.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__19.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__19.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"5ad7e9178543738b1aac36d52a65d7de.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__19.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__20.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__20.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"03169987de27af4fd4dffd1b11b3459f.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__20.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__21.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__21.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3557ea70104f584980bce46cdf2b6a67.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__21.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__22.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__22.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"91f9f17b56dfbb09ffd0205569ee23a7.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__22.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__23.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__23.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c0b89bd1908111d497ae914c7ad7c3d9.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__23.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__24.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__24.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ad16d2ece01179a774cf9749d8b3a673.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__24.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__25.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__25.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6623f3b355c4eaa50eaddf8fef043435.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__25.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__26.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__26.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4230de63fb3a616a28da8f5330aca26a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__26.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__27.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__27.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3fbd7eec7068b9c32e06fec2c2a9e809.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__27.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__28.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__28.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"59279692b45cb1c8756862eb0c2472e6.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__28.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__29.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__29.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"be24095069973570ed6ec7d7ea92d35c.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__29.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__30.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__30.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"76385fc9e9e8318bf321c584a1887a29.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__30.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__31.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__31.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6899ba3e1d05592e5bd195c677d15174.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__31.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__32.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__32.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"620cbf56ade20735630bf4039bb4dc7d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__32.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__33.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__33.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"aaac0ba3165000dc15c690bad8f9ee60.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__33.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__34.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__34.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d97faa0fc3afd35d90cacd5507252d9f.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__34.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__35.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__35.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b281a56b978cefe806364094d55ec3b5.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__35.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__36.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__36.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a07b00fa60d5376b8e6b186225f3209e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__36.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__37.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__37.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"bdcafa1ee96952be6cb2285aef5c9bfd.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__37.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__38.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__38.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1df44af0a2b2d39851d27118a761005d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__38.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__39.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__39.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c95776fa56a2462f3bf890d8f0059a9e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__39.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__40.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__40.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9af31b65632d5cc676d5af99462ec605.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__40.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__41.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__41.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"49ff345932588a2db91212e2f65f4d1a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__41.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__42.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__42.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"7161d3f3a277691ea1ef31ae69e78838.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__42.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__43.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__43.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2a5adf569234f96af806736d1b010f7b.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__43.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__44.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__44.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"52bc63fd576e8759b0af27ab003ef8cb.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__44.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__45.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__45.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a6e48b0e90d1ec6fc3a1fc752cee82b2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__45.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__46.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__46.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d2406fbbecbda7f0e4a4fbbbd3913526.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__46.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__47.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__47.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6c6f66f384c092a3e8895b2396782eb7.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__47.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__48.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__48.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"072ae9e0dcfeeae7612c4e89015b1305.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__48.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__49.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__49.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0fcebd87c7e0808ccad9a08c888daf0e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__49.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__50.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__50.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9e41516e63dd2e4e784e1a125642f5ec.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__50.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__51.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__51.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4f1cc4bb78b09b41333897eb464e2491.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__51.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__52.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__52.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"79f154a5f2882d05d6a18d843e5c4236.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__52.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__53.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__53.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"fb514c64d5bd18184118c751ad54f927.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__53.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__54.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__54.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"8da4968330d28734061cf12ec48a72a2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__54.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__55.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__55.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"33bfafd0eb1982ca32e28edfc8f93f73.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__55.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__56.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__56.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f6be856e612de07b55f056ada2cfeedd.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V1_4x/PixelPlebes_V1_4x__56.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__00.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__00.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"be089b66adfc9c8a120ec2325b23d823.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__00.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__01.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__01.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ff8441bcc7d773d83e2de0b2201a5dde.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__01.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__02.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__02.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"8315cdbede6da52ce0970948a897d2fb.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__02.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__03.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__03.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f8eba2b3b326aadb4a2d874998668077.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__03.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__04.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__04.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"5bd36117f667ad0bd8bc7b0f36036628.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__04.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__05.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__05.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"cbef3f1fd95cb1d22cddb026f5bf6fb3.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__05.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__06.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__06.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f9141435e7d221295ee50be11b0d970c.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__06.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__07.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__07.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"972fc49b0ace478efd9eedb4b80cd623.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__07.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__08.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__08.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2960abcb0524152d4ef48016b2213453.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__08.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__09.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__09.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0f8b66d78cbae1d9e1f45412996c7402.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__09.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__10.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__10.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"5962dadc49343d256e04e793257e556f.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__10.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__11.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__11.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d6cab78363ca8f72d1f665414e4cb992.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__11.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__12.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__12.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"30025781397b7d7f14b9723467705cc4.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__12.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__13.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__13.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f880db7d12326d74250a936b4af44b4b.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__13.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__14.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__14.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4db34e73c376a466ce8a423601eadbf2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__14.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__15.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__15.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"97494028ab543950b8756ef822abf4c5.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__15.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__16.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__16.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0b6e81883a982cf3154f58d71dab9756.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__16.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__17.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__17.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"490139a9d4b653167d844ff4d5d7e7c5.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__17.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__18.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__18.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"cbd194261c9affcefa6860eba5d82d33.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__18.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__19.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__19.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"7267cacea00685d16909fd88aa48813a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__19.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__20.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__20.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"eca101bc5cbb21924fad6fe1a6714f13.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__20.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__21.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__21.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a7dedda1f2345755406021dd2306c614.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__21.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__22.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__22.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"bcea736290a41905bd94f0a4fc367d02.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__22.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__23.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__23.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b6a5335a54a1b70abc390a256fbdf5ac.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__23.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__24.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__24.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b0cc7675745b1c81a25c64ede092f5ee.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__24.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__25.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__25.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0da29d0b9d8af4253dddaf5549d93c16.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__25.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__26.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__26.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"8c71e15167441853bf833b2bb8bbbfdf.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__26.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__27.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__27.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"fa66d4257a21caed32130fb333908bc8.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__27.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__28.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__28.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9471e04f7c5e6bdc054c6854ff93f0cd.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__28.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__29.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__29.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"33d7fa7ab03a8f382415500d3b88d9a9.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__29.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__30.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__30.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"105b678e9bd013c3ef73dd7ada05ab3a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__30.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__31.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__31.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c6e997899b5427e0526f722a88f1ecad.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__31.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__32.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__32.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"7a607873765b19368debf722a3060c1d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__32.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__33.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__33.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"837cb194974a705250fe805c55e54662.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__33.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__34.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__34.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"50dc71bba014c7e1d43257ffc122ca8f.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__34.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__35.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__35.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0ea435a1cb49ae514bb6915a56dd2b62.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__35.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__36.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__36.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"94b2e8e3d1fae443f20a155af3529633.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__36.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__37.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__37.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9e051a4e2d1570c229d9af44cdea778c.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__37.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__38.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__38.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4db3fbadb891ac266dd65f5eaf620e5c.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__38.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__39.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__39.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3bba40cbe8771ccc419c51844d500db3.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__39.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__40.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__40.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"54a6ffe7c2245fe91aa455b2d7b27718.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__40.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__41.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__41.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ec546db94fab696990383f89a894f298.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__41.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__42.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__42.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"84bdf043b4ba29d6baa54953aa15a9e6.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__42.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__43.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__43.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f34789388bca3298d2d86e04cfea220d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__43.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__44.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__44.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"75632828be493e1a4e599a44a1696964.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__44.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__45.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__45.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"92134ec9e1d920aaa5a0a4a55eee29f4.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__45.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__46.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__46.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f0ac92b9c63e33be7f0df38095b01127.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__46.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__47.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__47.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d97c61302c10e100c756b31c7f8554d8.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__47.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__48.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__48.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"e5fc2b53a808325aba0e292e1950fa06.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__48.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__49.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__49.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1980aee6397a990ed86591b5e1e12451.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__49.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__50.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__50.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f8d138879f183dcafc2cdc2241099ab4.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__50.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__51.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__51.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"cf2be5031f5bdf3f032c2f2a534014b2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__51.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__52.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__52.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1380a1e87bbf668859492e584efe9472.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__52.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__53.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__53.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"314e69cdc2effe632d5b0cdf6c91df06.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__53.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__54.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__54.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"56b3438acae2ff1587e37d636ffa5245.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__54.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__55.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__55.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a461c029faf1d2458d793db9c5ed4e4b.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__55.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__56.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__56.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"dbf519d58c66289ae02ad3537b5d65e2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_1x/PixelPlebes_V2_1x__56.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__00.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__00.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2ebbd0ed771575213266c9032bd5a484.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__00.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__01.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__01.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"05028545bb28aa79f39b8a82496de033.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__01.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__02.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__02.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ac79ff3fa7fca01aaf64cb535704dd1a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__02.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__03.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__03.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c5ee88a1136cbc9cb4c9943359917e42.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__03.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__04.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__04.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"89fd3fb54fa5248e6ac151a60e65f6bc.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__04.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__05.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__05.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c06039a49e1031196f18fb8a48d1371a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__05.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__06.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__06.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"58589e13ec825fe025f3b4649c071a94.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__06.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__07.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__07.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1b912880eb4e9bdeabb45bbbf66327a9.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__07.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__08.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__08.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9f552236e283fcf8e2de25534d66a3cc.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__08.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__09.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__09.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9e38526d70b2769d5d66c3876b1a9c6d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__09.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__10.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__10.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1223432053be549cdd99bd920557654e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__10.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__11.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__11.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"695612bfcf15b196aa198ae82ee514b8.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__11.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__12.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__12.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3aa5a906366442be9564ceb1ce891843.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__12.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__13.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__13.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2bfd07052850335a99646aaace22ce4e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__13.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__14.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__14.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"66971346be9b0240a9b915d916c354ab.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__14.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__15.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__15.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d6908088452d59c7c6ffaa0eae82c154.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__15.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__16.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__16.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"760782b03317c7c5d74da01cbb4b2682.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__16.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__17.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__17.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"2c897a149dcaffba8db758ea0687c8dd.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__17.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__18.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__18.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"88c88fb080f6ccef6846b7e25e22e913.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__18.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__19.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__19.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"5ad7e9178543738b1aac36d52a65d7de.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__19.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__20.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__20.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"03169987de27af4fd4dffd1b11b3459f.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__20.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__21.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__21.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3557ea70104f584980bce46cdf2b6a67.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__21.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__22.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__22.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"91f9f17b56dfbb09ffd0205569ee23a7.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__22.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__23.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__23.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c0b89bd1908111d497ae914c7ad7c3d9.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__23.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__24.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__24.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"ad16d2ece01179a774cf9749d8b3a673.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__24.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__25.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__25.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6623f3b355c4eaa50eaddf8fef043435.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__25.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__26.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__26.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4230de63fb3a616a28da8f5330aca26a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__26.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__27.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__27.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3fbd7eec7068b9c32e06fec2c2a9e809.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__27.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__28.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__28.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"91efa98dd128dab8aefb8a12420eee1e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__28.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__29.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__29.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d6d4dafb5a86bc16f88b59ac1b29f601.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__29.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__30.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__30.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"bc321d2f7bec2493422bd4edb5df09e8.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__30.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__31.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__31.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6899ba3e1d05592e5bd195c677d15174.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__31.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__32.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__32.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"620cbf56ade20735630bf4039bb4dc7d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__32.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__33.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__33.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"aaac0ba3165000dc15c690bad8f9ee60.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__33.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__34.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__34.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d97faa0fc3afd35d90cacd5507252d9f.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__34.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__35.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__35.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"b281a56b978cefe806364094d55ec3b5.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__35.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__36.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__36.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a07b00fa60d5376b8e6b186225f3209e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__36.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__37.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__37.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"bdcafa1ee96952be6cb2285aef5c9bfd.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__37.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__38.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__38.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1df44af0a2b2d39851d27118a761005d.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__38.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__39.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__39.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c95776fa56a2462f3bf890d8f0059a9e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__39.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__40.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__40.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9af31b65632d5cc676d5af99462ec605.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__40.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__41.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__41.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"e549d7a939c0fde6f38d6871f5e1c810.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__41.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__42.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__42.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a01c1ca9db254aec4bdfd32f9347ac24.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__42.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__43.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__43.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"1ed17017497d4abca5824134ec14a983.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__43.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__44.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__44.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"52bc63fd576e8759b0af27ab003ef8cb.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__44.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__45.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__45.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"a6e48b0e90d1ec6fc3a1fc752cee82b2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__45.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__46.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__46.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"d2406fbbecbda7f0e4a4fbbbd3913526.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__46.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__47.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__47.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"6c6f66f384c092a3e8895b2396782eb7.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__47.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__48.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__48.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"072ae9e0dcfeeae7612c4e89015b1305.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__48.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__49.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__49.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"0fcebd87c7e0808ccad9a08c888daf0e.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__49.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__50.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__50.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"9e41516e63dd2e4e784e1a125642f5ec.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__50.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__51.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__51.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4f1cc4bb78b09b41333897eb464e2491.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__51.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__52.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__52.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"79f154a5f2882d05d6a18d843e5c4236.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__52.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__53.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__53.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"fb514c64d5bd18184118c751ad54f927.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__53.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__54.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__54.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"8da4968330d28734061cf12ec48a72a2.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__54.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__55.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__55.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"33bfafd0eb1982ca32e28edfc8f93f73.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__55.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__56.png":
+/*!**********************************************************************!*\
+  !*** ./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__56.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"f6be856e612de07b55f056ada2cfeedd.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__56.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/cork-wallet.png":
+/*!***********************************************!*\
+  !*** ./assets/game/resources/cork-wallet.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c93975e3e5fc5c6bd4d2e789ff31ae4a.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/cork-wallet.png?");
+
+/***/ }),
+
+/***/ "./assets/game/resources/effects/polished-diamond.png":
+/*!************************************************************!*\
+  !*** ./assets/game/resources/effects/polished-diamond.png ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"55a63161c58dbbf48aaf9ed2b6aca7c6.png\";\n\n//# sourceURL=webpack:///./assets/game/resources/effects/polished-diamond.png?");
+
+/***/ }),
+
 /***/ "./config/config.json":
 /*!****************************!*\
   !*** ./config/config.json ***!
@@ -237,7 +2822,113 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/components/header.js\");\n/* harmony import */ var _loadingScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./loadingScreen */ \"./src/components/loadingScreen.js\");\n/* harmony import */ var _loginRegister__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./loginRegister */ \"./src/components/loginRegister.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home */ \"./src/components/home.js\");\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\n\n\n\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n\n    _this.finishLoading = function () {\n      _this.setState({\n        loading: false\n      });\n    };\n\n    _this.loginSuccess = function (data) {\n      console.log(data);\n\n      _this.setState({\n        loggedIn: true,\n        userData: data\n      });\n    };\n\n    _this.state = {\n      loading: true,\n      loggedIn: false,\n      userData: {}\n    };\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"render\",\n    value: function render() {\n      if (this.state.loading) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_loadingScreen__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n          finishLoadingMethod: this.finishLoading\n        });\n      }\n\n      if (!this.state.loggedIn) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_loginRegister__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n          loginMethod: this.loginSuccess\n        }));\n      }\n\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_home__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n        userData: this.state.userData\n      }));\n    }\n  }]);\n\n  return App;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./src/components/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/components/header.js\");\n/* harmony import */ var _loadingScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./loadingScreen */ \"./src/components/loadingScreen.js\");\n/* harmony import */ var _loginRegister__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./loginRegister */ \"./src/components/loginRegister.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home */ \"./src/components/home.js\");\n/* harmony import */ var _game_game__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./game/game */ \"./src/components/game/game.js\");\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\n\n\n\n\n\nvar App =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    var _this;\n\n    _classCallCheck(this, App);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this));\n\n    _this.finishLoading = function () {\n      _this.setState({\n        loading: false\n      });\n    };\n\n    _this.loginSuccess = function (data) {\n      console.log(data);\n\n      _this.setState({\n        loggedIn: true,\n        userData: data\n      });\n    };\n\n    _this.singlePlayerMethod = function () {\n      _this.setState({\n        singlePlayerGame: true\n      });\n    };\n\n    _this.state = {\n      loading: true,\n      loggedIn: false,\n      userData: {},\n      singlePlayerGame: false,\n      multiplayerGame: false\n    };\n    return _this;\n  }\n\n  _createClass(App, [{\n    key: \"render\",\n    value: function render() {\n      if (this.state.loading) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_loadingScreen__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n          finishLoadingMethod: this.finishLoading\n        });\n      }\n\n      if (!this.state.loggedIn) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_loginRegister__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n          loginMethod: this.loginSuccess\n        }));\n      }\n\n      if (this.state.singlePlayerGame) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_game_game__WEBPACK_IMPORTED_MODULE_5__[\"default\"], null));\n      }\n\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_home__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n        userData: this.state.userData,\n        singlePlayerMethod: this.singlePlayerMethod\n      }));\n    }\n  }]);\n\n  return App;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./src/components/app.js?");
+
+/***/ }),
+
+/***/ "./src/components/game/game.js":
+/*!*************************************!*\
+  !*** ./src/components/game/game.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _gameComponents_hand__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./gameComponents/hand */ \"./src/components/game/gameComponents/hand.js\");\n/* harmony import */ var _gameComponents_deck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./gameComponents/deck */ \"./src/components/game/gameComponents/deck.js\");\n/* harmony import */ var _gameComponents_effects__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./gameComponents/effects */ \"./src/components/game/gameComponents/effects.js\");\n/* harmony import */ var _gameComponents_controls__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./gameComponents/controls */ \"./src/components/game/gameComponents/controls.js\");\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n// This is the game component which will implement all other game components\n\n\n\n\n\n\nvar Game =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Game, _React$Component);\n\n  function Game(props) {\n    var _this;\n\n    _classCallCheck(this, Game);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Game).call(this, props));\n\n    _this.componentDidMount = function () {\n      document.body.addEventListener('mousedown', function () {\n        _this.Controls.mouseControls('down');\n      });\n      document.body.addEventListener('mouseup', function () {\n        _this.Controls.mouseControls('up');\n      });\n      document.body.addEventListener('keydown', _this.Controls.keyboardControls);\n    };\n\n    _this.componentWillUnmount = function () {\n      document.body.addEventListener('mousedown', function () {\n        _this.mouseControls('down');\n      });\n      document.body.addEventListener('mouseup', function () {\n        _this.mouseControls('up');\n      });\n      document.body.addEventListener('keydown', _this.keyboardControls);\n    };\n\n    _this.getRandomCardFromDeck = function () {\n      var keys = Object.keys(_this.state.playerDeck);\n      var randKey = keys[keys.length * Math.random() << 0];\n\n      if (_this.state.playerDeck[randKey] >= 1) {\n        return randKey;\n      }\n\n      console.log('Something went wrong, that card has 0 copies');\n      return 'error';\n    };\n\n    _this.removeCardFromDeck = function (card) {\n      var deck = _this.state.playerDeck;\n      delete deck[card];\n\n      _this.setState({\n        playerDeck: deck\n      });\n    };\n\n    _this.drawCardMethod = function () {\n      var currentCards = _this.state.cardsInHand;\n\n      var newCard = _this.getRandomCardFromDeck();\n\n      _this.removeCardFromDeck(newCard);\n\n      currentCards.push(newCard);\n\n      _this.setState({\n        cardsInHand: currentCards\n      });\n    };\n\n    _this.playCardMethod = function (effect, x, y) {\n      _this.setState({\n        effects: effect,\n        x: x,\n        y: y\n      });\n    };\n\n    _this.removeEffectMethod = function () {\n      _this.setState({\n        effects: ''\n      });\n    };\n\n    _this.state = {\n      cardsInHand: [],\n      playerDeck: __webpack_require__(/*! ./gameComponents/resources/playerDeck.json */ \"./src/components/game/gameComponents/resources/playerDeck.json\"),\n      cardsDrawn: [],\n      controls: {\n        mouse: 'up'\n      }\n    };\n    _this.Controls = new _gameComponents_controls__WEBPACK_IMPORTED_MODULE_4__[\"default\"](_assertThisInitialized(_this)); // TODO: Bind more stuff this way\n\n    return _this;\n  }\n\n  _createClass(Game, [{\n    key: \"render\",\n    value: function render() {\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_gameComponents_effects__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n        effect: this.state.effects,\n        coords: {\n          x: this.state.x,\n          y: this.state.y\n        },\n        removeEffectMethod: this.removeEffectMethod\n      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_gameComponents_deck__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n        drawCardMethod: this.drawCardMethod\n      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_gameComponents_hand__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n        cards: this.state.cardsInHand,\n        playCardMethod: this.playCardMethod,\n        controls: this.state.controls\n      }));\n    }\n  }]);\n\n  return Game;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Game);\n\n//# sourceURL=webpack:///./src/components/game/game.js?");
+
+/***/ }),
+
+/***/ "./src/components/game/gameComponents/card.js":
+/*!****************************************************!*\
+  !*** ./src/components/game/gameComponents/card.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\nvar Card =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Card, _React$Component);\n\n  function Card(props) {\n    var _this;\n\n    _classCallCheck(this, Card);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Card).call(this, props));\n\n    _this.isHeld = function () {\n      if (_this.state.interaction === 'dropped') {\n        return false;\n      }\n\n      return true;\n    };\n\n    _this.drag = function (event) {\n      if (_this.state.interaction === 'grabbed') {\n        if (_this.props.controls.mouse === 'up') {\n          _this.returnToHand(event);\n        } else {\n          var x = parseFloat(event.target.getAttribute('data-x')) || 0;\n          var y = parseFloat(event.target.getAttribute('data-y')) || 0;\n          var gameSizeCoefficient = document.querySelector('#game').getAttribute('game-size-coefficient');\n          x += event.movementX / gameSizeCoefficient;\n          y += event.movementY / gameSizeCoefficient;\n          event.target.setAttribute('data-x', x);\n          event.target.setAttribute('data-y', y);\n          event.target.style.transform = \"translate(\".concat(x, \"px, \").concat(y, \"px)\");\n        }\n      }\n    };\n\n    _this.pickup = function () {\n      _this.setState({\n        interaction: 'grabbed'\n      });\n    };\n\n    _this.drop = function (event) {\n      _this.setState({\n        interaction: 'dropped'\n      });\n\n      if (event.target.getAttribute('data-y') < -180) {\n        _this.playCard(event, event.target.getAttribute('data-x'), event.target.getAttribute('data-y'));\n      }\n\n      event.target.setAttribute('data-x', 0);\n      event.target.setAttribute('data-y', 0);\n      event.target.style.transform = 'translate(0px, 0px)';\n    };\n\n    _this.playCard = function (event, x, y) {\n      _this.props.playCardMethod(_this.props.cardInfo.effect, x, y);\n    };\n\n    _this.returnToHand = function (event) {\n      _this.setState({\n        interaction: 'dropped'\n      });\n\n      event.target.setAttribute('data-x', 0);\n      event.target.setAttribute('data-y', 0);\n      event.target.style.transform = 'translate(0px, 0px)';\n    };\n\n    _this.state = {\n      interaction: 'dropped'\n    };\n    return _this;\n  }\n\n  _createClass(Card, [{\n    key: \"render\",\n    value: function render() {\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: this.isHeld() ? 'card' : 'card card-hand',\n        onMouseDown: this.pickup,\n        onMouseUp: this.drop,\n        onMouseMove: this.drag\n      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n        src: \"../compiled/\".concat(__webpack_require__(\"./assets/game/resources sync recursive ^\\\\.\\\\/.*$\")(\"./\".concat(this.props.cardInfo.image))),\n        alt: \"Card Art\"\n      }));\n    }\n  }]);\n\n  return Card;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Card);\n\n//# sourceURL=webpack:///./src/components/game/gameComponents/card.js?");
+
+/***/ }),
+
+/***/ "./src/components/game/gameComponents/controls.js":
+/*!********************************************************!*\
+  !*** ./src/components/game/gameComponents/controls.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Controls = function Controls(parent) {\n  var _this = this;\n\n  _classCallCheck(this, Controls);\n\n  this.mouseControls = function (type) {\n    if (type === 'down') {\n      _this.parent.setState({\n        controls: {\n          mouse: 'down'\n        }\n      });\n    }\n\n    if (type === 'up') {\n      _this.parent.setState({\n        controls: {\n          mouse: 'up'\n        }\n      });\n    }\n  };\n\n  this.keyboardControls = function () {// TODO: Add enable disable flow here. Currently working only on down\n    // console.log(event.key);\n  };\n\n  this.parent = parent;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Controls);\n\n//# sourceURL=webpack:///./src/components/game/gameComponents/controls.js?");
+
+/***/ }),
+
+/***/ "./src/components/game/gameComponents/deck.js":
+/*!****************************************************!*\
+  !*** ./src/components/game/gameComponents/deck.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\nvar image = __webpack_require__(/*! ../../../../assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__53.png */ \"./assets/game/resources/Plebes/V2_4x/PixelPlebes_V2_4x__53.png\");\n\nvar Deck =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Deck, _React$Component);\n\n  function Deck(props) {\n    var _this;\n\n    _classCallCheck(this, Deck);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Deck).call(this, props));\n\n    _this.drawCard = function () {\n      // TODO: Don't let an empty deck draw\n      var newDeck = _this.state.fauxCards;\n      newDeck.shift();\n\n      _this.setState({\n        fauxCards: newDeck\n      });\n\n      _this.props.drawCardMethod();\n    };\n\n    var deck = __webpack_require__(/*! ./resources/playerDeck.json */ \"./src/components/game/gameComponents/resources/playerDeck.json\");\n\n    var deckSize = Object.keys(deck).length;\n    _this.state = {\n      cardsInDeck: deckSize,\n      fauxCards: []\n    };\n    return _this;\n  }\n\n  _createClass(Deck, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      var fauxCards = [];\n\n      for (var i = 0; i < this.state.cardsInDeck; i++) {\n        fauxCards.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n          key: i,\n          className: \"deck-card\"\n        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n          src: \"../compiled/\".concat(image),\n          alt: \"Deck Back Art\"\n        })));\n      }\n\n      this.setState({\n        fauxCards: fauxCards\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: \"deck\",\n        onClick: this.drawCard\n      }, this.state.fauxCards);\n    }\n  }]);\n\n  return Deck;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Deck);\n\n//# sourceURL=webpack:///./src/components/game/gameComponents/deck.js?");
+
+/***/ }),
+
+/***/ "./src/components/game/gameComponents/effects.js":
+/*!*******************************************************!*\
+  !*** ./src/components/game/gameComponents/effects.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _resources_effectLibrary__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resources/effectLibrary */ \"./src/components/game/gameComponents/resources/effectLibrary.js\");\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }\n\nfunction _nonIterableSpread() { throw new TypeError(\"Invalid attempt to spread non-iterable instance\"); }\n\nfunction _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter); }\n\nfunction _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\n\nvar Effects =\n/*#__PURE__*/\nfunction (_EffectLibrary) {\n  _inherits(Effects, _EffectLibrary);\n\n  function Effects(props) {\n    var _this;\n\n    _classCallCheck(this, Effects);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Effects).call(this, props));\n\n    _this.componentDidUpdate = function () {\n      if (_this.props.effect !== undefined && _this.props.effect !== '') {\n        _this.setState(function (prevState) {\n          return {\n            effects: [].concat(_toConsumableArray(prevState.effects), [_this.props.effect])\n          };\n        });\n\n        _this.triggerEffect(_this.props.effect);\n      }\n    };\n\n    _this.triggerEffect = function (effect) {\n      // TODO: Force effect stacking. IE: Make multiple triggers wait\n      if (Object.getOwnPropertyNames(_assertThisInitialized(_this)).includes(effect)) {\n        // console.log(`triggered: ${effect}, X: ${this.props.coords.x} Y: ${this.props.coords.y}`);\n        eval(\"this.\".concat(effect, \"();\"));\n      } else if (effect !== undefined) {\n        console.log(\"didn't trigger \".concat(effect, \" effect, couldn't find a method\"));\n      } // TODO: Fix state management for the effect loop\n\n\n      console.log(\"effects: \".concat(_this.state.effects));\n\n      _this.props.removeEffectMethod();\n    };\n\n    _this.state = {\n      effects: [],\n      currentEffect: '',\n      effectStyle: {\n        opacity: 0\n      }\n    };\n    return _this;\n  }\n\n  _createClass(Effects, [{\n    key: \"render\",\n    value: function render() {\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: \"effect\"\n      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: \"effect-area\",\n        style: this.state.effectStyle\n      }, this.state.currentEffect)));\n    }\n  }]);\n\n  return Effects;\n}(_resources_effectLibrary__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Effects);\n\n//# sourceURL=webpack:///./src/components/game/gameComponents/effects.js?");
+
+/***/ }),
+
+/***/ "./src/components/game/gameComponents/hand.js":
+/*!****************************************************!*\
+  !*** ./src/components/game/gameComponents/hand.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./card */ \"./src/components/game/gameComponents/card.js\");\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\n\nvar Hand =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Hand, _React$Component);\n\n  function Hand(props) {\n    var _this;\n\n    _classCallCheck(this, Hand);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Hand).call(this, props));\n    _this.state = {\n      cards: __webpack_require__(/*! ./resources/cards.json */ \"./src/components/game/gameComponents/resources/cards.json\")\n    };\n    return _this;\n  }\n\n  _createClass(Hand, [{\n    key: \"render\",\n    value: function render() {\n      var _this2 = this;\n\n      var cardsInHand = [];\n      this.props.cards.forEach(function (element, index) {\n        var cardInfo = _this2.state.cards[element];\n        cardsInHand.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_card__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n          key: index,\n          name: element,\n          cardInfo: cardInfo,\n          playCardMethod: _this2.props.playCardMethod,\n          controls: _this2.props.controls\n        }));\n      });\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: \"hand\"\n      }, cardsInHand);\n    }\n  }]);\n\n  return Hand;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Hand);\n\n//# sourceURL=webpack:///./src/components/game/gameComponents/hand.js?");
+
+/***/ }),
+
+/***/ "./src/components/game/gameComponents/resources/cards.json":
+/*!*****************************************************************!*\
+  !*** ./src/components/game/gameComponents/resources/cards.json ***!
+  \*****************************************************************/
+/*! exports provided: two-of-hearts, two-of-clubs, two-of-spades, two-of-diamonds, three-of-hearts, three-of-clubs, three-of-spades, three-of-diamonds, four-of-hearts, four-of-clubs, four-of-spades, four-of-diamonds, five-of-hearts, five-of-clubs, five-of-spades, five-of-diamonds, six-of-hearts, six-of-clubs, six-of-spades, six-of-diamonds, seven-of-hearts, seven-of-clubs, seven-of-spades, seven-of-diamonds, eight-of-hearts, eight-of-clubs, eight-of-spades, eight-of-diamonds, nine-of-hearts, nine-of-clubs, nine-of-spades, nine-of-diamonds, ten-of-hearts, ten-of-clubs, ten-of-spades, ten-of-diamonds, king-of-hearts, king-of-clubs, king-of-spades, king-of-diamonds, queen-of-hearts, queen-of-clubs, queen-of-spades, queen-of-diamonds, jack-of-hearts, jack-of-clubs, jack-of-spades, jack-of-diamonds, ace-of-hearts, ace-of-clubs, ace-of-spades, ace-of-diamonds, blue-joker, red-joker, default */
+/***/ (function(module) {
+
+eval("module.exports = JSON.parse(\"{\\\"two-of-hearts\\\":{\\\"name\\\":\\\"two-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__05.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"two-of-clubs\\\":{\\\"name\\\":\\\"two-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__44.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"two-of-spades\\\":{\\\"name\\\":\\\"two-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__31.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"two-of-diamonds\\\":{\\\"name\\\":\\\"two-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__18.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"three-of-hearts\\\":{\\\"name\\\":\\\"three-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__06.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"three-of-clubs\\\":{\\\"name\\\":\\\"three-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__45.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"three-of-spades\\\":{\\\"name\\\":\\\"three-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__32.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"three-of-diamonds\\\":{\\\"name\\\":\\\"three-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__19.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"four-of-hearts\\\":{\\\"name\\\":\\\"four-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__07.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"four-of-clubs\\\":{\\\"name\\\":\\\"four-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__46.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"four-of-spades\\\":{\\\"name\\\":\\\"four-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__33.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"four-of-diamonds\\\":{\\\"name\\\":\\\"four-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__20.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"five-of-hearts\\\":{\\\"name\\\":\\\"five-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__08.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"five-of-clubs\\\":{\\\"name\\\":\\\"five-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__47.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"five-of-spades\\\":{\\\"name\\\":\\\"five-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__34.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"five-of-diamonds\\\":{\\\"name\\\":\\\"five-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__21.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"six-of-hearts\\\":{\\\"name\\\":\\\"six-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__09.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"six-of-clubs\\\":{\\\"name\\\":\\\"six-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__48.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"six-of-spades\\\":{\\\"name\\\":\\\"six-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__35.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"six-of-diamonds\\\":{\\\"name\\\":\\\"six-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__22.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"seven-of-hearts\\\":{\\\"name\\\":\\\"seven-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__10.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"seven-of-clubs\\\":{\\\"name\\\":\\\"seven-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__49.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"seven-of-spades\\\":{\\\"name\\\":\\\"seven-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__36.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"seven-of-diamonds\\\":{\\\"name\\\":\\\"seven-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__23.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"eight-of-hearts\\\":{\\\"name\\\":\\\"eight-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__11.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"eight-of-clubs\\\":{\\\"name\\\":\\\"eight-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__50.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"eight-of-spades\\\":{\\\"name\\\":\\\"eight-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__37.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"eight-of-diamonds\\\":{\\\"name\\\":\\\"eight-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__24.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"nine-of-hearts\\\":{\\\"name\\\":\\\"nine-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__12.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"nine-of-clubs\\\":{\\\"name\\\":\\\"nine-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__51.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"nine-of-spades\\\":{\\\"name\\\":\\\"nine-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__38.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"nine-of-diamonds\\\":{\\\"name\\\":\\\"nine-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__25.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"ten-of-hearts\\\":{\\\"name\\\":\\\"ten-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__13.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"ten-of-clubs\\\":{\\\"name\\\":\\\"ten-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__52.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"ten-of-spades\\\":{\\\"name\\\":\\\"ten-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__39.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"ten-of-diamonds\\\":{\\\"name\\\":\\\"ten-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__26.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"king-of-hearts\\\":{\\\"name\\\":\\\"king-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__02.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"king-of-clubs\\\":{\\\"name\\\":\\\"king-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__41.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"king-of-spades\\\":{\\\"name\\\":\\\"king-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__28.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"king-of-diamonds\\\":{\\\"name\\\":\\\"king-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__15.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"queen-of-hearts\\\":{\\\"name\\\":\\\"queen-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__03.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"queen-of-clubs\\\":{\\\"name\\\":\\\"queen-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__42.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"queen-of-spades\\\":{\\\"name\\\":\\\"queen-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__29.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"queen-of-diamonds\\\":{\\\"name\\\":\\\"queen-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__16.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"jack-of-hearts\\\":{\\\"name\\\":\\\"jack-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__04.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"jack-of-clubs\\\":{\\\"name\\\":\\\"jack-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__43.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"jack-of-spades\\\":{\\\"name\\\":\\\"jack-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__30.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"jack-of-diamonds\\\":{\\\"name\\\":\\\"jack-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__17.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"ace-of-hearts\\\":{\\\"name\\\":\\\"ace-of-hearts\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__01.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"ace-of-clubs\\\":{\\\"name\\\":\\\"ace-of-clubs\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__40.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"ace-of-spades\\\":{\\\"name\\\":\\\"ace-of-spades\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__27.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"ace-of-diamonds\\\":{\\\"name\\\":\\\"ace-of-diamonds\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__14.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"blue-joker\\\":{\\\"name\\\":\\\"blue-joker\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__54.png\\\",\\\"effect\\\":\\\"diamond\\\"},\\\"red-joker\\\":{\\\"name\\\":\\\"red-joker\\\",\\\"image\\\":\\\"Plebes/V2_4x/PixelPlebes_V2_4x__55.png\\\",\\\"effect\\\":\\\"diamond\\\"}}\");\n\n//# sourceURL=webpack:///./src/components/game/gameComponents/resources/cards.json?");
+
+/***/ }),
+
+/***/ "./src/components/game/gameComponents/resources/effectLibrary.js":
+/*!***********************************************************************!*\
+  !*** ./src/components/game/gameComponents/resources/effectLibrary.js ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\nvar EffectLibrary =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(EffectLibrary, _React$Component);\n\n  function EffectLibrary(props) {\n    var _this;\n\n    _classCallCheck(this, EffectLibrary);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(EffectLibrary).call(this, props));\n\n    _this.diamond = function () {\n      var rules = _this.effectLib.diamond; // TODO: Make the timeout actually elegant\n\n      _this.state.effectStyle = {\n        opacity: 1,\n        transition: '1s'\n      };\n      _this.state.currentEffect = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n        src: \"compiled/\".concat(__webpack_require__(/*! ../../../../../assets/game/resources/effects/polished-diamond.png */ \"./assets/game/resources/effects/polished-diamond.png\")),\n        alt: \"\"\n      });\n      setTimeout(function () {\n        _this.state.effectStyle = {\n          opacity: 0,\n          transition: '1s'\n        };\n\n        _this.forceUpdate();\n\n        setTimeout(function () {\n          _this.state.effectStyle = _this.defaultEffectStyle;\n\n          _this.forceUpdate();\n        }, rules.length / 2);\n      }, rules.length / 2);\n    };\n\n    _this.defaultEffectStyle = {\n      opacity: 0\n    };\n    _this.effectLib = {\n      diamond: {\n        length: 2000\n      }\n    };\n    return _this;\n  }\n\n  return EffectLibrary;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (EffectLibrary);\n\n//# sourceURL=webpack:///./src/components/game/gameComponents/resources/effectLibrary.js?");
+
+/***/ }),
+
+/***/ "./src/components/game/gameComponents/resources/playerDeck.json":
+/*!**********************************************************************!*\
+  !*** ./src/components/game/gameComponents/resources/playerDeck.json ***!
+  \**********************************************************************/
+/*! exports provided: two-of-hearts, two-of-clubs, two-of-spades, two-of-diamonds, three-of-hearts, three-of-clubs, three-of-spades, three-of-diamonds, four-of-hearts, four-of-clubs, four-of-spades, four-of-diamonds, five-of-hearts, five-of-clubs, five-of-spades, five-of-diamonds, six-of-hearts, six-of-clubs, six-of-spades, six-of-diamonds, seven-of-hearts, seven-of-clubs, seven-of-spades, seven-of-diamonds, eight-of-hearts, eight-of-clubs, eight-of-spades, eight-of-diamonds, nine-of-hearts, nine-of-clubs, nine-of-spades, nine-of-diamonds, ten-of-hearts, ten-of-clubs, ten-of-spades, ten-of-diamonds, king-of-hearts, king-of-clubs, king-of-spades, king-of-diamonds, queen-of-hearts, queen-of-clubs, queen-of-spades, queen-of-diamonds, jack-of-hearts, jack-of-clubs, jack-of-spades, jack-of-diamonds, ace-of-hearts, ace-of-clubs, ace-of-spades, ace-of-diamonds, blue-joker, red-joker, default */
+/***/ (function(module) {
+
+eval("module.exports = JSON.parse(\"{\\\"two-of-hearts\\\":1,\\\"two-of-clubs\\\":1,\\\"two-of-spades\\\":1,\\\"two-of-diamonds\\\":1,\\\"three-of-hearts\\\":1,\\\"three-of-clubs\\\":1,\\\"three-of-spades\\\":1,\\\"three-of-diamonds\\\":1,\\\"four-of-hearts\\\":1,\\\"four-of-clubs\\\":1,\\\"four-of-spades\\\":1,\\\"four-of-diamonds\\\":1,\\\"five-of-hearts\\\":1,\\\"five-of-clubs\\\":1,\\\"five-of-spades\\\":1,\\\"five-of-diamonds\\\":1,\\\"six-of-hearts\\\":1,\\\"six-of-clubs\\\":1,\\\"six-of-spades\\\":1,\\\"six-of-diamonds\\\":1,\\\"seven-of-hearts\\\":1,\\\"seven-of-clubs\\\":1,\\\"seven-of-spades\\\":1,\\\"seven-of-diamonds\\\":1,\\\"eight-of-hearts\\\":1,\\\"eight-of-clubs\\\":1,\\\"eight-of-spades\\\":1,\\\"eight-of-diamonds\\\":1,\\\"nine-of-hearts\\\":1,\\\"nine-of-clubs\\\":1,\\\"nine-of-spades\\\":1,\\\"nine-of-diamonds\\\":1,\\\"ten-of-hearts\\\":1,\\\"ten-of-clubs\\\":1,\\\"ten-of-spades\\\":1,\\\"ten-of-diamonds\\\":1,\\\"king-of-hearts\\\":1,\\\"king-of-clubs\\\":1,\\\"king-of-spades\\\":1,\\\"king-of-diamonds\\\":1,\\\"queen-of-hearts\\\":1,\\\"queen-of-clubs\\\":1,\\\"queen-of-spades\\\":1,\\\"queen-of-diamonds\\\":1,\\\"jack-of-hearts\\\":1,\\\"jack-of-clubs\\\":1,\\\"jack-of-spades\\\":1,\\\"jack-of-diamonds\\\":1,\\\"ace-of-hearts\\\":1,\\\"ace-of-clubs\\\":1,\\\"ace-of-spades\\\":1,\\\"ace-of-diamonds\\\":1,\\\"blue-joker\\\":1,\\\"red-joker\\\":1}\");\n\n//# sourceURL=webpack:///./src/components/game/gameComponents/resources/playerDeck.json?");
 
 /***/ }),
 
@@ -261,7 +2952,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icon */ \"./src/components/icon.js\");\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\n\nvar Home =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Home, _React$Component);\n\n  function Home(props) {\n    var _this;\n\n    _classCallCheck(this, Home);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Home).call(this, props));\n    _this.state = {\n      icons: [{\n        name: 'Files',\n        image: 'assets/homeIcons/file-folder.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'Singleplayer',\n        image: 'assets/homeIcons/singleplayer.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'Multiplayer',\n        image: 'assets/homeIcons/multiplayer.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'My PC',\n        image: 'assets/homeIcons/pc.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'Map',\n        image: 'assets/homeIcons/map.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'Settings',\n        image: 'assets/homeIcons/settings.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }]\n    };\n    return _this;\n  }\n\n  _createClass(Home, [{\n    key: \"render\",\n    value: function render() {\n      var icons = [];\n      this.state.icons.forEach(function (icon, index) {\n        icons.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icon__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n          key: index,\n          name: icon.name,\n          image: icon.image,\n          method: icon.method\n        }));\n      });\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: \"page\"\n      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: \"home\"\n      }, icons)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"footer\", {\n        className: \"primary-footer\"\n      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n        className: \"username\"\n      }, this.props.userData.username)));\n    }\n  }]);\n\n  return Home;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Home);\n\n//# sourceURL=webpack:///./src/components/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _icon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icon */ \"./src/components/icon.js\");\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\n\nvar Home =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(Home, _React$Component);\n\n  function Home(props) {\n    var _this;\n\n    _classCallCheck(this, Home);\n\n    _this = _possibleConstructorReturn(this, _getPrototypeOf(Home).call(this, props));\n    _this.state = {\n      icons: [{\n        name: 'Files',\n        image: 'assets/homeIcons/file-folder.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'Singleplayer',\n        image: 'assets/homeIcons/singleplayer.png',\n        method: function method() {\n          console.log('asdf');\n\n          _this.props.singlePlayerMethod();\n        }\n      }, {\n        name: 'Multiplayer',\n        image: 'assets/homeIcons/multiplayer.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'My PC',\n        image: 'assets/homeIcons/pc.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'Map',\n        image: 'assets/homeIcons/map.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }, {\n        name: 'Settings',\n        image: 'assets/homeIcons/settings.png',\n        method: function method() {\n          console.log('asdf');\n        }\n      }]\n    };\n    return _this;\n  }\n\n  _createClass(Home, [{\n    key: \"render\",\n    value: function render() {\n      var icons = [];\n      this.state.icons.forEach(function (icon, index) {\n        icons.push(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icon__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n          key: index,\n          name: icon.name,\n          image: icon.image,\n          method: icon.method\n        }));\n      });\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: \"page\"\n      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n        className: \"home\"\n      }, icons)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"footer\", {\n        className: \"primary-footer\"\n      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", {\n        className: \"username\"\n      }, this.props.userData.username)));\n    }\n  }]);\n\n  return Home;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Home);\n\n//# sourceURL=webpack:///./src/components/home.js?");
 
 /***/ }),
 

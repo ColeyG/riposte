@@ -1,0 +1,272 @@
+{
+  "two-of-hearts": {
+    "name": "two-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__05.png",
+    "effect": "diamond"
+  },
+  "two-of-clubs": {
+    "name": "two-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__44.png",
+    "effect": "diamond"
+  },
+  "two-of-spades": {
+    "name": "two-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__31.png",
+    "effect": "diamond"
+  },
+  "two-of-diamonds": {
+    "name": "two-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__18.png",
+    "effect": "diamond"
+  },
+  "three-of-hearts": {
+    "name": "three-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__06.png",
+    "effect": "diamond"
+  },
+  "three-of-clubs": {
+    "name": "three-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__45.png",
+    "effect": "diamond"
+  },
+  "three-of-spades": {
+    "name": "three-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__32.png",
+    "effect": "diamond"
+  },
+  "three-of-diamonds": {
+    "name": "three-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__19.png",
+    "effect": "diamond"
+  },
+  "four-of-hearts": {
+    "name": "four-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__07.png",
+    "effect": "diamond"
+  },
+  "four-of-clubs": {
+    "name": "four-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__46.png",
+    "effect": "diamond"
+  },
+  "four-of-spades": {
+    "name": "four-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__33.png",
+    "effect": "diamond"
+  },
+  "four-of-diamonds": {
+    "name": "four-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__20.png",
+    "effect": "diamond"
+  },
+  "five-of-hearts": {
+    "name": "five-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__08.png",
+    "effect": "diamond"
+  },
+  "five-of-clubs": {
+    "name": "five-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__47.png",
+    "effect": "diamond"
+  },
+  "five-of-spades": {
+    "name": "five-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__34.png",
+    "effect": "diamond"
+  },
+  "five-of-diamonds": {
+    "name": "five-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__21.png",
+    "effect": "diamond"
+  },
+  "six-of-hearts": {
+    "name": "six-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__09.png",
+    "effect": "diamond"
+  },
+  "six-of-clubs": {
+    "name": "six-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__48.png",
+    "effect": "diamond"
+  },
+  "six-of-spades": {
+    "name": "six-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__35.png",
+    "effect": "diamond"
+  },
+  "six-of-diamonds": {
+    "name": "six-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__22.png",
+    "effect": "diamond"
+  },
+  "seven-of-hearts": {
+    "name": "seven-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__10.png",
+    "effect": "diamond"
+  },
+  "seven-of-clubs": {
+    "name": "seven-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__49.png",
+    "effect": "diamond"
+  },
+  "seven-of-spades": {
+    "name": "seven-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__36.png",
+    "effect": "diamond"
+  },
+  "seven-of-diamonds": {
+    "name": "seven-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__23.png",
+    "effect": "diamond"
+  },
+  "eight-of-hearts": {
+    "name": "eight-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__11.png",
+    "effect": "diamond"
+  },
+  "eight-of-clubs": {
+    "name": "eight-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__50.png",
+    "effect": "diamond"
+  },
+  "eight-of-spades": {
+    "name": "eight-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__37.png",
+    "effect": "diamond"
+  },
+  "eight-of-diamonds": {
+    "name": "eight-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__24.png",
+    "effect": "diamond"
+  },
+  "nine-of-hearts": {
+    "name": "nine-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__12.png",
+    "effect": "diamond"
+  },
+  "nine-of-clubs": {
+    "name": "nine-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__51.png",
+    "effect": "diamond"
+  },
+  "nine-of-spades": {
+    "name": "nine-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__38.png",
+    "effect": "diamond"
+  },
+  "nine-of-diamonds": {
+    "name": "nine-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__25.png",
+    "effect": "diamond"
+  },
+  "ten-of-hearts": {
+    "name": "ten-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__13.png",
+    "effect": "diamond"
+  },
+  "ten-of-clubs": {
+    "name": "ten-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__52.png",
+    "effect": "diamond"
+  },
+  "ten-of-spades": {
+    "name": "ten-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__39.png",
+    "effect": "diamond"
+  },
+  "ten-of-diamonds": {
+    "name": "ten-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__26.png",
+    "effect": "diamond"
+  },
+  "king-of-hearts": {
+    "name": "king-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__02.png",
+    "effect": "diamond"
+  },
+  "king-of-clubs": {
+    "name": "king-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__41.png",
+    "effect": "diamond"
+  },
+  "king-of-spades": {
+    "name": "king-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__28.png",
+    "effect": "diamond"
+  },
+  "king-of-diamonds": {
+    "name": "king-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__15.png",
+    "effect": "diamond"
+  },
+  "queen-of-hearts": {
+    "name": "queen-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__03.png",
+    "effect": "diamond"
+  },
+  "queen-of-clubs": {
+    "name": "queen-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__42.png",
+    "effect": "diamond"
+  },
+  "queen-of-spades": {
+    "name": "queen-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__29.png",
+    "effect": "diamond"
+  },
+  "queen-of-diamonds": {
+    "name": "queen-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__16.png",
+    "effect": "diamond"
+  },
+  "jack-of-hearts": {
+    "name": "jack-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__04.png",
+    "effect": "diamond"
+  },
+  "jack-of-clubs": {
+    "name": "jack-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__43.png",
+    "effect": "diamond"
+  },
+  "jack-of-spades": {
+    "name": "jack-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__30.png",
+    "effect": "diamond"
+  },
+  "jack-of-diamonds": {
+    "name": "jack-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__17.png",
+    "effect": "diamond"
+  },
+  "ace-of-hearts": {
+    "name": "ace-of-hearts",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__01.png",
+    "effect": "diamond"
+  },
+  "ace-of-clubs": {
+    "name": "ace-of-clubs",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__40.png",
+    "effect": "diamond"
+  },
+  "ace-of-spades": {
+    "name": "ace-of-spades",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__27.png",
+    "effect": "diamond"
+  },
+  "ace-of-diamonds": {
+    "name": "ace-of-diamonds",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__14.png",
+    "effect": "diamond"
+  },
+  "blue-joker": {
+    "name": "blue-joker",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__54.png",
+    "effect": "diamond"
+  },
+  "red-joker": {
+    "name": "red-joker",
+    "image": "Plebes/V2_4x/PixelPlebes_V2_4x__55.png",
+    "effect": "diamond"
+  }
+}

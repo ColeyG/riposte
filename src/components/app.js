@@ -3,6 +3,7 @@ import Header from './header';
 import LoadingScreen from './loadingScreen';
 import LoginRegister from './loginRegister';
 import Home from './home';
+import Game from './game/game';
 
 class App extends React.Component {
   constructor() {
@@ -11,6 +12,8 @@ class App extends React.Component {
       loading: true,
       loggedIn: false,
       userData: {},
+      singlePlayerGame: false,
+      multiplayerGame: false,
     };
   }
 
@@ -28,6 +31,12 @@ class App extends React.Component {
     });
   }
 
+  singlePlayerMethod = () => {
+    this.setState({
+      singlePlayerGame: true,
+    });
+  }
+
   render() {
     if (this.state.loading) {
       return (
@@ -42,10 +51,18 @@ class App extends React.Component {
         </React.Fragment>
       );
     }
+    if (this.state.singlePlayerGame) {
+      return (
+        <React.Fragment>
+          <Header />
+          <Game />
+        </React.Fragment>
+      );
+    }
     return (
       <React.Fragment>
         <Header />
-        <Home userData={this.state.userData} />
+        <Home userData={this.state.userData} singlePlayerMethod={this.singlePlayerMethod} />
       </React.Fragment>
     );
   }

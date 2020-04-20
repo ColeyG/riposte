@@ -18,6 +18,7 @@ class Home extends React.Component {
           image: 'assets/homeIcons/singleplayer.png',
           method: () => {
             console.log('asdf');
+            this.props.singlePlayerMethod();
           },
         },
         {
