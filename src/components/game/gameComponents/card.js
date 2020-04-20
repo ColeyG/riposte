@@ -46,14 +46,14 @@ class Card extends React.Component {
       this.playCard(event, event.target.getAttribute('data-x'), event.target.getAttribute('data-y'));
     }
 
-    event.target.setAttribute('data-x', 0);
-    event.target.setAttribute('data-y', 0);
+    // event.target.setAttribute('data-x', 0);
+    // event.target.setAttribute('data-y', 0);
 
-    event.target.style.transform = 'translate(0px, 0px)';
+    // event.target.style.transform = 'translate(0px, 0px)';
   };
 
   playCard = (event, x, y) => {
-    this.props.playCardMethod(this.props.cardInfo.effect, x, y);
+    // this.props.playCardMethod(this.props.cardInfo.effect, x, y);
   };
 
   returnToHand = (event) => {

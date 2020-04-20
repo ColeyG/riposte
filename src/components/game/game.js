@@ -2,7 +2,6 @@
 import React from 'react';
 import Hand from './gameComponents/hand';
 import Deck from './gameComponents/deck';
-import Effects from './gameComponents/effects';
 import Controls from './gameComponents/controls';
 
 class Game extends React.Component {
@@ -90,7 +89,7 @@ class Game extends React.Component {
   };
 
   playCardMethod = (effect, x, y) => {
-    this.setState({ effects: effect, x, y });
+    // this.setState({ effects: effect, x, y });
   };
 
   removeEffectMethod = () => {
@@ -100,7 +99,6 @@ class Game extends React.Component {
   render() {
     return (
       <div id="game">
-        <Effects effect={this.state.effects} coords={{ x: this.state.x, y: this.state.y }} removeEffectMethod={this.removeEffectMethod} />
         <Deck drawCardMethod={this.drawCardMethod} />
         <Hand cards={this.state.cardsInHand} playCardMethod={this.playCardMethod} controls={this.state.controls} />
       </div>
