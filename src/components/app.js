@@ -5,6 +5,7 @@ import LoginRegister from './loginRegister';
 import Home from './home';
 import Game from './game/game';
 
+
 class App extends React.Component {
   constructor() {
     super();
